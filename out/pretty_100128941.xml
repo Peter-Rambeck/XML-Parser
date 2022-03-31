@@ -1,0 +1,739 @@
+<?xml version="1.0"?>
+<EnergyLabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.ens.dk/EnergyLabel">
+  <SchemaVersion>1.0.15</SchemaVersion>
+  <EnergyLabelType>
+    <BasedOn>CalculatedConsumption</BasedOn>
+    <Usage>SingleFamily</Usage>
+    <IsNewBuild>false</IsNewBuild>
+    <IncludesVAT>true</IncludesVAT>
+    <IsMixedUsage>false</IsMixedUsage>
+  </EnergyLabelType>
+  <EnergyLabelSoftware>
+    <Name>Energy08</Name>
+    <Version>1.1</Version>
+  </EnergyLabelSoftware>
+  <CalculationSoftware>
+    <Name>Be06</Name>
+    <Version>4.8.11.14</Version>
+  </CalculationSoftware>
+  <Submitter>
+    <Company>
+      <Number>600164</Number>
+      <Name>Energi- og Bygningsr&#xE5;dgivning A/S</Name>
+      <Address>
+        <Name xmlns="http://www.ens.dk/Globals"/>
+        <StreetName xmlns="http://www.ens.dk/Globals">Lautrupvang 2</StreetName>
+        <HouseNumber xmlns="http://www.ens.dk/Globals"/>
+        <SideOrDoor xmlns="http://www.ens.dk/Globals"/>
+        <PostalCode xmlns="http://www.ens.dk/Globals">2750</PostalCode>
+        <PostalCity xmlns="http://www.ens.dk/Globals">Ballerup</PostalCity>
+        <StreetCode xmlns="http://www.ens.dk/Globals"/>
+      </Address>
+      <PhoneNumber>70208686 </PhoneNumber>
+      <Email>kaem@ebas.dk</Email>
+    </Company>
+    <Consultant>
+      <ID>250705</ID>
+      <Name>Jan H. B. S&#xF8;rensen</Name>
+      <Email>jhs@ebas.dk</Email>
+    </Consultant>
+  </Submitter>
+  <EnergyLabelSerialIdentifier>100128941</EnergyLabelSerialIdentifier>
+  <ValidFrom>2009-07-30</ValidFrom>
+  <ValidTo>2016-07-30</ValidTo>
+  <InputData xmlns="http://www.ens.dk/InputData">
+    <Label>
+      <Address>
+        <Name xmlns="http://www.ens.dk/Globals"/>
+        <StreetName xmlns="http://www.ens.dk/Globals">Solsikkevej</StreetName>
+        <HouseNumber xmlns="http://www.ens.dk/Globals">48</HouseNumber>
+        <SideOrDoor xmlns="http://www.ens.dk/Globals"/>
+        <PostalCode xmlns="http://www.ens.dk/Globals">8700</PostalCode>
+        <PostalCity xmlns="http://www.ens.dk/Globals">Horsens</PostalCity>
+        <StreetCode xmlns="http://www.ens.dk/Globals">7420</StreetCode>
+      </Address>
+      <BBR>
+        <MunicipalityNumber>615</MunicipalityNumber>
+        <PropertyNumber>112674</PropertyNumber>
+      </BBR>
+      <ReviewDate>2009-07-29</ReviewDate>
+      <Ownership>Private</Ownership>
+      <Comments>
+        <General>Boligen er opf&#xF8;rt i 1974 og i betragtning af dette i normal isoleringsm&#xE6;ssig stand. Der kan udf&#xF8;res enkelte energi&#xF8;konomisk rentable forbedringer i boligen.
+Der foreligger udateret bygningstegning. Hvor andet ikke fremg&#xE5;r, er isoleringsforhold baseret p&#xE5; disse oplysninger.</General>
+        <StatedVersusCalculatedConsumption>Det beregnede forbrug kan variere v&#xE6;sentligt i forhold til det oplyste forbrug. Energim&#xE6;rket er beregnet som et standardforbrug baseret p&#xE5; en gennemsnitlig kold fyringss&#xE6;son. Alle rum som indg&#xE5;r i det opvarmede areal, er forudsat fuldt opvarmet til mellem 20 og 21 grader hele d&#xF8;gnet. Der kan v&#xE6;re store forskelle mellem disse standardforuds&#xE6;tninger - og s&#xE5; den faktiske brugeradf&#xE6;rd med hensyn til opvarmning og udluftning af boligen samt forbrug af det varme vand. 
+Da der anvendes br&#xE6;ndeovn, men denne ikke indg&#xE5;r i energim&#xE6;rkeberegningen, kan det oplyste og det beregnede forbrug ikke umiddelbart sammenlignes. Til orientering svarer 1 rummeter t&#xF8;rt b&#xF8;gebr&#xE6;nde til ca. 1.000 kWh varme og 1 rummeter granbr&#xE6;nde til ca. 500 kWh varme - alt afh&#xE6;ngig af br&#xE6;ndets kvalitet, br&#xE6;ndeovnens effekt og fyringsteknik.</StatedVersusCalculatedConsumption>
+        <BBRinformation>Det registrerede opvarmede boligareal svarer til oplysningerne i BBR-ejeroplysningsskemaet/www.ois.dk</BBRinformation>
+      </Comments>
+      <Apartments/>
+      <ReportedConsumptions/>
+      <Buildings>
+        <Building ID="3">
+          <Address>
+            <Name xmlns="http://www.ens.dk/Globals"/>
+            <StreetName xmlns="http://www.ens.dk/Globals">Solsikkevej</StreetName>
+            <HouseNumber xmlns="http://www.ens.dk/Globals">48</HouseNumber>
+            <SideOrDoor xmlns="http://www.ens.dk/Globals"/>
+            <PostalCode xmlns="http://www.ens.dk/Globals">8700</PostalCode>
+            <PostalCity xmlns="http://www.ens.dk/Globals">Horsens</PostalCity>
+            <StreetCode xmlns="http://www.ens.dk/Globals">7420</StreetCode>
+          </Address>
+          <BBR>
+            <BuildingNumber>001</BuildingNumber>
+            <UseCode>120</UseCode>
+            <YearOfConstruction>1974</YearOfConstruction>
+            <DwellingArea>116</DwellingArea>
+            <CommercialArea>0</CommercialArea>
+          </BBR>
+          <IsTenancy>false</IsTenancy>
+          <BuildingRegulation>BR08</BuildingRegulation>
+          <Zones>
+            <Zone ID="4">
+              <Name>Hovedbygning</Name>
+              <SubtractWindowAreaFromOuterWalls>false</SubtractWindowAreaFromOuterWalls>
+              <BBRUseCode>120</BBRUseCode>
+              <BuildingType>DetachedBuilding</BuildingType>
+              <HousingUnits>1</HousingUnits>
+              <FloorCount>1</FloorCount>
+              <Height>2.4</Height>
+              <UsageDays>0</UsageDays>
+              <UsageFrom>0</UsageFrom>
+              <UsageTo>0</UsageTo>
+              <HeatedDwellingArea>116</HeatedDwellingArea>
+              <HeatedCommercialArea>0</HeatedCommercialArea>
+              <ElectricityPrice>2</ElectricityPrice>
+              <WaterPrice>0</WaterPrice>
+              <HeatCapacity>120</HeatCapacity>
+              <Rotation>0</Rotation>
+              <AdditionToEnergyFrame>0</AdditionToEnergyFrame>
+              <SetPointHeatedTemperature>20</SetPointHeatedTemperature>
+              <SetPointWantedTemperature>23</SetPointWantedTemperature>
+              <SetPointNaturalVentilationTemperature>24</SetPointNaturalVentilationTemperature>
+              <SetPointCoolingTemperature>25</SetPointCoolingTemperature>
+              <SetPointStoreTemperature>0</SetPointStoreTemperature>
+              <DimensioningRoomTemperature>20</DimensioningRoomTemperature>
+              <DimensioningOuterTemperature>-12</DimensioningOuterTemperature>
+              <DimensioningStoreTemperature>0</DimensioningStoreTemperature>
+              <ProposalGroups>
+                <ProposalGroup ID="26">
+                  <ShortText>Efterisolering af loft mod uopvarmet tagrum.</ShortText>
+                  <LongText>Det anbefales at efterisolere loft mod uopvarmet tagrum med 200 mm mineraluld. Inden efterisolering af loft igangs&#xE6;ttes skal det unders&#xF8;ges n&#xE6;rmere om de eksisterende konstruktioner er tilstr&#xE6;kkelig t&#xE6;tte. Evt. udf&#xF8;relse af ny dampsp&#xE6;rre eller udbedring af ut&#xE6;theder skal till&#xE6;gges de anf&#xF8;rte overslagspriser. Evt. etablering af gangbro eller h&#xE6;vning af eksisterende gangbro eller gulvbr&#xE6;dder i tagrummet skal ogs&#xE5; till&#xE6;gges overslagsprisen.
+Efterisolering af loftet er ikke umiddelbart rentabelt. Hvis efterisoleringen evt. udf&#xF8;res som g&#xF8;r-det-selv-arbejde er omkostningerne v&#xE6;sentligt lavere.</LongText>
+                  <IsInvestmentOverridden>false</IsInvestmentOverridden>
+                  <Category>ProfitableWhenRenovating</Category>
+                  <SEEBClassification>1-1-0-0</SEEBClassification>
+                  <ProposalReferences>
+                    <ProposalReference ProposalID="9"/>
+                  </ProposalReferences>
+                </ProposalGroup>
+                <ProposalGroup ID="27">
+                  <ShortText>Montering af termostatventiler</ShortText>
+                  <LongText>P&#xE5; radiatorer uden termostatiske reguleringsventiler monteres termostatiske freml&#xF8;bsventiler til regulering af korrekt rumtemperatur.</LongText>
+                  <IsInvestmentOverridden>false</IsInvestmentOverridden>
+                  <Category>Profitable</Category>
+                  <SEEBClassification>2-2-4-0</SEEBClassification>
+                  <ProposalReferences>
+                    <ProposalReference ProposalID="12"/>
+                  </ProposalReferences>
+                </ProposalGroup>
+                <ProposalGroup ID="28">
+                  <ShortText>Udestyring</ShortText>
+                  <LongText>Det anbefales at montere et vejrkompenseringsanl&#xE6;g p&#xE5; varmeanl&#xE6;gget. Dette vil kunne s&#xE6;nke temperaturene i varmer&#xF8;r n&#xE5;r varmebehovet ikke er s&#xE5; stort.</LongText>
+                  <IsInvestmentOverridden>false</IsInvestmentOverridden>
+                  <Category>Profitable</Category>
+                  <SEEBClassification>2-2-0-0</SEEBClassification>
+                  <ProposalReferences>
+                    <ProposalReference ProposalID="16"/>
+                  </ProposalReferences>
+                </ProposalGroup>
+              </ProposalGroups>
+              <BuildingUnits>
+                <Status ID="5">
+                  <ShortText>Hul yderv&#xE6;g - 30 cm - tegl/letbet., isoleret - 75 mm. (U-v&#xE6;rdier beregnet efter DS418).</ShortText>
+                  <LongText>Yderv&#xE6;gge er udf&#xF8;rt som ca. 26 cm hulmur. Iht. tegning er bagmuren udf&#xF8;rt i Siporex og hulrummet isoleret med 75 mm mineraluld. Isoleringstilstanden er kontrolleret med borebr&#xF8;ve i gavl mod vest.
+Lette partier ved vinduerne sk&#xF8;nnes isoleret som hulmuren.
+Isoleringen lever ikke op til nutidige krav, men det er ikke umiddelbart rentabelt at efterisolere ydermuren ind- eller udvendigt.</LongText>
+                  <BuildingUnit xmlns:q1="http://www.ens.dk/BuildingUnits" xsi:type="q1:BuildingPart">
+                    <q1:Area>97</q1:Area>
+                    <q1:UValue>0.39</q1:UValue>
+                    <q1:BFactor>1</q1:BFactor>
+                    <q1:DimensioningOuterTemperature>-12</q1:DimensioningOuterTemperature>
+                    <q1:DimensioningInnerTemperature>20</q1:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-2-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="6">
+                  <ShortText>Terr&#xE6;nd&#xE6;k - Beton + slidlag - 200 mm leca</ShortText>
+                  <LongText>Gulve er udfra opf&#xF8;relsestidspunktet sk&#xF8;nnet isoleret med 200 mm Lecan&#xF8;dder.</LongText>
+                  <BuildingUnit xmlns:q2="http://www.ens.dk/BuildingUnits" xsi:type="q2:BuildingPart">
+                    <q2:Area>91</q2:Area>
+                    <q2:UValue>0.25</q2:UValue>
+                    <q2:BFactor>0.7</q2:BFactor>
+                    <q2:DimensioningOuterTemperature>-12</q2:DimensioningOuterTemperature>
+                    <q2:DimensioningInnerTemperature>20</q2:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-4-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="7">
+                  <ShortText>Terr&#xE6;nd&#xE6;k - Beton + slidlag - 200 mm mineraluld</ShortText>
+                  <LongText>Iht. ejers oplysninger er der udf&#xF8;rt nye gulve incl. isolering i badev&#xE6;relse og bryggers i 2006. Iht. opf&#xF8;relsestidspunktet sk&#xF8;nnes disse gulve isoleret med 200 mm isolering.</LongText>
+                  <BuildingUnit xmlns:q3="http://www.ens.dk/BuildingUnits" xsi:type="q3:BuildingPart">
+                    <q3:Area>13</q3:Area>
+                    <q3:UValue>0.14</q3:UValue>
+                    <q3:BFactor>1.2</q3:BFactor>
+                    <q3:DimensioningOuterTemperature>-12</q3:DimensioningOuterTemperature>
+                    <q3:DimensioningInnerTemperature>20</q3:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-4-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="8">
+                  <ShortText>Loftrum - 150 mm isolering</ShortText>
+                  <LongText>Loft mod uopvarmet tagrum er isoleret med ca. 150 mm mineraluld.</LongText>
+                  <BuildingUnit xmlns:q4="http://www.ens.dk/BuildingUnits" xsi:type="q4:BuildingPart">
+                    <q4:Area>116</q4:Area>
+                    <q4:UValue>0.25</q4:UValue>
+                    <q4:BFactor>1</q4:BFactor>
+                    <q4:DimensioningOuterTemperature>-12</q4:DimensioningOuterTemperature>
+                    <q4:DimensioningInnerTemperature>20</q4:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-1-0-0</SEEBClassification>
+                  <Proposals>
+                    <Proposal ID="9">
+                      <ShortText>Efterisolering af loft mod uopvarmet tagrum.</ShortText>
+                      <LongText>Det anbefales at efterisolere loft mod uopvarmet tagrum med 200 mm mineraluld. Inden efterisolering af loft igangs&#xE6;ttes skal det unders&#xF8;ges n&#xE6;rmere om de eksisterende konstruktioner er tilstr&#xE6;kkelig t&#xE6;tte. Evt. udf&#xF8;relse af ny dampsp&#xE6;rre eller udbedring af ut&#xE6;theder skal till&#xE6;gges de anf&#xF8;rte overslagspriser. Evt. etablering af gangbro eller h&#xE6;vning af eksisterende gangbro eller gulvbr&#xE6;dder i tagrummet skal ogs&#xE5; till&#xE6;gges overslagsprisen.
+Efterisolering af loftet er ikke umiddelbart rentabelt. Hvis efterisoleringen evt. udf&#xF8;res som g&#xF8;r-det-selv-arbejde er omkostningerne v&#xE6;sentligt lavere.</LongText>
+                      <LifeTime>20</LifeTime>
+                      <Investment>29000</Investment>
+                      <BuildingUnit xmlns:q5="http://www.ens.dk/BuildingUnits" xsi:type="q5:BuildingPart">
+                        <q5:Area>116</q5:Area>
+                        <q5:UValue>0.09</q5:UValue>
+                        <q5:BFactor>1</q5:BFactor>
+                        <q5:DimensioningOuterTemperature>-12</q5:DimensioningOuterTemperature>
+                        <q5:DimensioningInnerTemperature>20</q5:DimensioningInnerTemperature>
+                      </BuildingUnit>
+                      <SEEBClassification>1-1-0-0</SEEBClassification>
+                    </Proposal>
+                  </Proposals>
+                </Status>
+                <Status ID="10">
+                  <ShortText>50 L, 50 mm Pur 30 mm</ShortText>
+                  <LongText>Varmt brugsvand produceres i ca 60 l varmtvandsbeholder indbygget i kedelunit i bryggers.</LongText>
+                  <BuildingUnit xmlns:q6="http://www.ens.dk/BuildingUnits" xsi:type="q6:HotWaterTank">
+                    <q6:NumberOfTanks>1</q6:NumberOfTanks>
+                    <q6:ShareOfHotWaterConsumption>1</q6:ShareOfHotWaterConsumption>
+                    <q6:Volume>50</q6:Volume>
+                    <q6:SupplyTemperature>55</q6:SupplyTemperature>
+                    <q6:ElectricalSupport>None</q6:ElectricalSupport>
+                    <q6:HasHeatingCoil>false</q6:HasHeatingCoil>
+                    <q6:HeatLoss>1</q6:HeatLoss>
+                    <q6:BFactor>0</q6:BFactor>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>3-1-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="11">
+                  <ShortText>Termostat p&#xE5; alle minus ( ) antal</ShortText>
+                  <LongText>Der er monteret termostatiske reguleringsventiler p&#xE5; radiator til regulering af korrekt rumtemperatur i stuen. Ventiler p&#xE5; radiatorer i v&#xE6;relser er ikke termostatregulerede.</LongText>
+                  <BuildingUnit xmlns:q7="http://www.ens.dk/BuildingUnits" xsi:type="q7:AutomaticControl">
+                    <q7:RoomTemperatureAdjustment>0.5</q7:RoomTemperatureAdjustment>
+                    <q7:NumberOfEntities>0</q7:NumberOfEntities>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-2-4-0</SEEBClassification>
+                  <Proposals>
+                    <Proposal ID="12">
+                      <ShortText>Montering af termostatventiler</ShortText>
+                      <LongText>P&#xE5; radiatorer uden termostatiske reguleringsventiler monteres termostatiske freml&#xF8;bsventiler til regulering af korrekt rumtemperatur.</LongText>
+                      <LifeTime>20</LifeTime>
+                      <Investment>1800</Investment>
+                      <BuildingUnit xmlns:q8="http://www.ens.dk/BuildingUnits" xsi:type="q8:AutomaticControl">
+                        <q8:RoomTemperatureAdjustment>0</q8:RoomTemperatureAdjustment>
+                        <q8:NumberOfEntities>3</q8:NumberOfEntities>
+                      </BuildingUnit>
+                      <SEEBClassification>2-2-4-0</SEEBClassification>
+                    </Proposal>
+                  </Proposals>
+                </Status>
+                <Status ID="13">
+                  <ShortText>Radiator, 2-streng + gulvvarme f&#xF8;r 1982</ShortText>
+                  <LongText>Den prim&#xE6;re opvarmning af ejendommen sker via radiatorer i alle opvarmede rum. Der er desuden gulvvarme i badev&#xE6;relse og bryggers.</LongText>
+                  <BuildingUnit xmlns:q9="http://www.ens.dk/BuildingUnits" xsi:type="q9:HeatDistributionSystem">
+                    <q9:SupplyPipeTemperature>80</q9:SupplyPipeTemperature>
+                    <q9:ReturnPipeTemperature>60</q9:ReturnPipeTemperature>
+                    <q9:TypeOfSystem>Dual</q9:TypeOfSystem>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-2-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="14">
+                  <ShortText>Automatisk trinstyret, nyere - 75 W</ShortText>
+                  <LongText>Cirkulationspumpe er skjult indbygget i naturgasfyret.</LongText>
+                  <BuildingUnit xmlns:q10="http://www.ens.dk/BuildingUnits" xsi:type="q10:HeatDistributionPump">
+                    <q10:NominalEffect>75</q10:NominalEffect>
+                    <q10:ReductionFactor>0.6</q10:ReductionFactor>
+                    <q10:NumberOfPumps>1</q10:NumberOfPumps>
+                    <q10:Type>Combi</q10:Type>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-2-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="15">
+                  <ShortText>1/2" st&#xE5;lr&#xF8;r - 10 mm</ShortText>
+                  <LongText>Varmer&#xF8;r er fremf&#xF8;rt under gulv og er udfra opf&#xF8;relses-tidspunktet sk&#xF8;nnet isoleret med 10  mm isolering. </LongText>
+                  <BuildingUnit xmlns:q11="http://www.ens.dk/BuildingUnits" xsi:type="q11:HeatDistributionPipe">
+                    <q11:Length>80</q11:Length>
+                    <q11:HeatLoss>0.29</q11:HeatLoss>
+                    <q11:BFactor>0.6</q11:BFactor>
+                    <q11:HasOuterTemperatureCompensation>false</q11:HasOuterTemperatureCompensation>
+                    <q11:IsUnusedInSummerPeriod>true</q11:IsUnusedInSummerPeriod>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-2-0-0</SEEBClassification>
+                  <Proposals>
+                    <Proposal ID="16">
+                      <ShortText>Udestyring</ShortText>
+                      <LongText>Det anbefales at montere et vejrkompenseringsanl&#xE6;g p&#xE5; varmeanl&#xE6;gget. Dette vil kunne s&#xE6;nke temperaturene i varmer&#xF8;r n&#xE5;r varmebehovet ikke er s&#xE5; stort.</LongText>
+                      <LifeTime>20</LifeTime>
+                      <Investment>12000</Investment>
+                      <BuildingUnit xmlns:q12="http://www.ens.dk/BuildingUnits" xsi:type="q12:HeatDistributionPipe">
+                        <q12:Length>80</q12:Length>
+                        <q12:HeatLoss>0.29</q12:HeatLoss>
+                        <q12:BFactor>0.6</q12:BFactor>
+                        <q12:HasOuterTemperatureCompensation>true</q12:HasOuterTemperatureCompensation>
+                        <q12:IsUnusedInSummerPeriod>true</q12:IsUnusedInSummerPeriod>
+                      </BuildingUnit>
+                      <SEEBClassification>2-2-0-0</SEEBClassification>
+                    </Proposal>
+                  </Proposals>
+                </Status>
+                <Status ID="17">
+                  <ShortText/>
+                  <LongText/>
+                  <BuildingUnit xmlns:q13="http://www.ens.dk/BuildingUnits" xsi:type="q13:HotWaterConsumption">
+                    <q13:AverageConsumption>250</q13:AverageConsumption>
+                    <q13:Temperature>55</q13:Temperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>3-1-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="18">
+                  <ShortText>Hele huset</ShortText>
+                  <LongText/>
+                  <BuildingUnit xmlns:q14="http://www.ens.dk/BuildingUnits" xsi:type="q14:InternalHeatContribution">
+                    <q14:Area>116</q14:Area>
+                    <q14:PowerFromPersons>1.5</q14:PowerFromPersons>
+                    <q14:PowerFromDevicesInUsageHours>3.5</q14:PowerFromDevicesInUsageHours>
+                    <q14:PowerFromDevicesOutsideUsageHours>0</q14:PowerFromDevicesOutsideUsageHours>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-0-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="19">
+                  <ShortText>Tegl-, letbeton-, letv&#xE6;g, betonfundament, klinkegulv</ShortText>
+                  <LongText/>
+                  <BuildingUnit xmlns:q15="http://www.ens.dk/BuildingUnits" xsi:type="q15:LinearThermalTransmittance">
+                    <q15:Length>47</q15:Length>
+                    <q15:HeatLoss>0.7</q15:HeatLoss>
+                    <q15:BFactor>1</q15:BFactor>
+                    <q15:DimensioningOuterTemperature>-12</q15:DimensioningOuterTemperature>
+                    <q15:DimensioningInnerTemperature>20</q15:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-4-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="20">
+                  <ShortText>Naturlig 0,3 - opl. vinduer, ventiler i bad + emh&#xE6;tte - hele huset</ShortText>
+                  <LongText>Huset ventileres ved naturlig ventilation gennem vinduer samt via rumaftr&#xE6;k og emh&#xE6;tte i k&#xF8;kken.</LongText>
+                  <BuildingUnit xmlns:q16="http://www.ens.dk/BuildingUnits" xsi:type="q16:Ventilation">
+                    <q16:Area>116</q16:Area>
+                    <q16:UsageFactor>1</q16:UsageFactor>
+                    <q16:NaturalVentilationWinter>0.3</q16:NaturalVentilationWinter>
+                    <q16:NaturalVentilationSummer>1.2</q16:NaturalVentilationSummer>
+                    <q16:NaturalVentilationSummerOutsideUsageHours>0</q16:NaturalVentilationSummerOutsideUsageHours>
+                    <q16:MechanicalVentilationWinter>0</q16:MechanicalVentilationWinter>
+                    <q16:MechanicalVentilationSummer>0</q16:MechanicalVentilationSummer>
+                    <q16:MechanicalVentilationSummerOutsideUsageHours>0</q16:MechanicalVentilationSummerOutsideUsageHours>
+                    <q16:InfiltrationOutsideUsageHours>0</q16:InfiltrationOutsideUsageHours>
+                    <q16:TemperatureEfficiency>0</q16:TemperatureEfficiency>
+                    <q16:InjectionTemperature>0</q16:InjectionTemperature>
+                    <q16:SpecialPowerUsage>0</q16:SpecialPowerUsage>
+                    <q16:HasHeatCoils>false</q16:HasHeatCoils>
+                    <q16:VentilationSystemNumber>0</q16:VentilationSystemNumber>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-5-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="21">
+                  <ShortText>Et fag, g&#xE5;ende, 1 rude - 1,2x1,2 - 2 lags energirude</ShortText>
+                  <LongText>Oplukkelige vinduer med 1 ramme. Vinduer er monteret med 2 lags energirude.</LongText>
+                  <BuildingUnit xmlns:q17="http://www.ens.dk/BuildingUnits" xsi:type="q17:Window">
+                    <q17:NumberOfWindows>4</q17:NumberOfWindows>
+                    <q17:Orientation>0</q17:Orientation>
+                    <q17:Inclination>90</q17:Inclination>
+                    <q17:Area>1.225</q17:Area>
+                    <q17:UValue>1.5</q17:UValue>
+                    <q17:BFactor>1</q17:BFactor>
+                    <q17:GlassShare>0.7</q17:GlassShare>
+                    <q17:SolarHeatTransmittance>0.63</q17:SolarHeatTransmittance>
+                    <q17:SolarScreening>1</q17:SolarScreening>
+                    <q17:OuterWallID xsi:nil="true"/>
+                    <q17:Shade>
+                      <q17:ShortText>Standard</q17:ShortText>
+                      <q17:Horizon>20</q17:Horizon>
+                      <q17:Eaves>30</q17:Eaves>
+                      <q17:Left>0</q17:Left>
+                      <q17:Right>0</q17:Right>
+                      <q17:WindowHole>10</q17:WindowHole>
+                    </q17:Shade>
+                    <q17:DimensioningOuterTemperature>-12</q17:DimensioningOuterTemperature>
+                    <q17:DimensioningInnerTemperature>20</q17:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-3-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="22">
+                  <ShortText>Et fag, g&#xE5;ende, 1 rude - 1,2x1,2 - 2 lags energirude</ShortText>
+                  <LongText>Oplukkelige vinduer med 1 ramme. Vinduer er monteret med 2 lags energirude.</LongText>
+                  <BuildingUnit xmlns:q18="http://www.ens.dk/BuildingUnits" xsi:type="q18:Window">
+                    <q18:NumberOfWindows>6</q18:NumberOfWindows>
+                    <q18:Orientation>180</q18:Orientation>
+                    <q18:Inclination>90</q18:Inclination>
+                    <q18:Area>1.825</q18:Area>
+                    <q18:UValue>1.5</q18:UValue>
+                    <q18:BFactor>1</q18:BFactor>
+                    <q18:GlassShare>0.7</q18:GlassShare>
+                    <q18:SolarHeatTransmittance>0.63</q18:SolarHeatTransmittance>
+                    <q18:SolarScreening>1</q18:SolarScreening>
+                    <q18:OuterWallID xsi:nil="true"/>
+                    <q18:Shade>
+                      <q18:ShortText>Mellem venstre</q18:ShortText>
+                      <q18:Horizon>20</q18:Horizon>
+                      <q18:Eaves>30</q18:Eaves>
+                      <q18:Left>45</q18:Left>
+                      <q18:Right>0</q18:Right>
+                      <q18:WindowHole>10</q18:WindowHole>
+                    </q18:Shade>
+                    <q18:DimensioningOuterTemperature>-12</q18:DimensioningOuterTemperature>
+                    <q18:DimensioningInnerTemperature>20</q18:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-3-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="23">
+                  <ShortText>Massiv isoleret yderd&#xF8;r - Massive yderd&#xF8;re</ShortText>
+                  <LongText>Massiv yderd&#xF8;r med isolerede fyldinger og bekl&#xE6;dning p&#xE5; begge sider.</LongText>
+                  <BuildingUnit xmlns:q19="http://www.ens.dk/BuildingUnits" xsi:type="q19:Window">
+                    <q19:NumberOfWindows>2</q19:NumberOfWindows>
+                    <q19:Orientation>0</q19:Orientation>
+                    <q19:Inclination>90</q19:Inclination>
+                    <q19:Area>2.3</q19:Area>
+                    <q19:UValue>1.2</q19:UValue>
+                    <q19:BFactor>1</q19:BFactor>
+                    <q19:GlassShare>0</q19:GlassShare>
+                    <q19:SolarHeatTransmittance>0</q19:SolarHeatTransmittance>
+                    <q19:SolarScreening>0</q19:SolarScreening>
+                    <q19:OuterWallID xsi:nil="true"/>
+                    <q19:Shade>
+                      <q19:ShortText/>
+                      <q19:Horizon>0</q19:Horizon>
+                      <q19:Eaves>0</q19:Eaves>
+                      <q19:Left>0</q19:Left>
+                      <q19:Right>0</q19:Right>
+                      <q19:WindowHole>0</q19:WindowHole>
+                    </q19:Shade>
+                    <q19:DimensioningOuterTemperature>-12</q19:DimensioningOuterTemperature>
+                    <q19:DimensioningInnerTemperature>20</q19:DimensioningInnerTemperature>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>1-3-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="24">
+                  <ShortText>Kedel - Gas - ny kondens unit isoleret m. kappe, ny br&#xE6;nder</ShortText>
+                  <LongText>Ejendommen opvarmes med naturgas. Kedel er installeret i bryggers. Anl&#xE6;gget er et centralvarmeanl&#xE6;g. Kedlen er en forholdsvis ny Bereatta kedelunit med indbygget varmtvandsbeholder, isoleret og med kappe. </LongText>
+                  <BuildingUnit xmlns:q20="http://www.ens.dk/BuildingUnits" xsi:type="q20:Boiler">
+                    <q20:IsPrimary>true</q20:IsPrimary>
+                    <q20:Fuel>
+                      <Material xmlns="http://www.ens.dk/Globals">NaturalGas</Material>
+                      <Unit xmlns="http://www.ens.dk/Globals">CubicMeter</Unit>
+                      <EnergyPerUnit xmlns="http://www.ens.dk/Globals">11</EnergyPerUnit>
+                      <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                    </q20:Fuel>
+                    <q20:FuelPrice>
+                      <CostPerUnit xmlns="http://www.ens.dk/Globals">7.14</CostPerUnit>
+                      <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                      <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                    </q20:FuelPrice>
+                    <q20:NumberOfBoilers>1</q20:NumberOfBoilers>
+                    <q20:BFactor>0</q20:BFactor>
+                    <q20:NominalEffect>20</q20:NominalEffect>
+                    <q20:MinimumTemperature>0</q20:MinimumTemperature>
+                    <q20:StandbyPowerUsage>100</q20:StandbyPowerUsage>
+                    <q20:ShareOfNominalEffectToHotWater>1</q20:ShareOfNominalEffectToHotWater>
+                    <q20:OtherPowerUsage>100</q20:OtherPowerUsage>
+                    <q20:FullLoadEfficiency>0.96</q20:FullLoadEfficiency>
+                    <q20:FullLoadCorrection>0.003</q20:FullLoadCorrection>
+                    <q20:PartialLoadEfficiency>1.06</q20:PartialLoadEfficiency>
+                    <q20:PartialLoadCorrection>0.003</q20:PartialLoadCorrection>
+                    <q20:PartialLoadLoad>0.3</q20:PartialLoadLoad>
+                    <q20:PartialLoadTemperature>50</q20:PartialLoadTemperature>
+                    <q20:IdleLossFactor>0.007</q20:IdleLossFactor>
+                    <q20:IdleShareToRoom>0.8</q20:IdleShareToRoom>
+                    <q20:ConstructionYear xsi:nil="true"/>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-0-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+                <Status ID="25">
+                  <ShortText>Ikke certificeret br&#xE6;ndeovn - Prim&#xE6;r gas</ShortText>
+                  <LongText>Der er mulighed for supplerende varmeforsyning i form af br&#xE6;ndeovn i stuen. Ovnen indg&#xE5;r ikke i beregning af energiforbruget i henhold til Energistyrelsens beregningsregler. Det kan antages at 1 RM tr&#xE6; svarer til ca. 55 m3 gas.</LongText>
+                  <BuildingUnit xmlns:q21="http://www.ens.dk/BuildingUnits" xsi:type="q21:Stove">
+                    <q21:IsPrimary>false</q21:IsPrimary>
+                    <q21:Fuel>
+                      <Material xmlns="http://www.ens.dk/Globals">Wood</Material>
+                      <Unit xmlns="http://www.ens.dk/Globals">CubicMeterOfSplitWood</Unit>
+                      <EnergyPerUnit xmlns="http://www.ens.dk/Globals">2200</EnergyPerUnit>
+                      <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                    </q21:Fuel>
+                    <q21:FuelPrice>
+                      <CostPerUnit xmlns="http://www.ens.dk/Globals">963</CostPerUnit>
+                      <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                      <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                    </q21:FuelPrice>
+                    <q21:ShareOfFloorArea>0</q21:ShareOfFloorArea>
+                    <q21:Efficiency>0</q21:Efficiency>
+                    <q21:AirFlowRequirement>0</q21:AirFlowRequirement>
+                  </BuildingUnit>
+                  <IsBasedOnSeebStandardBuilding>false</IsBasedOnSeebStandardBuilding>
+                  <SEEBClassification>2-0-0-0</SEEBClassification>
+                  <Proposals/>
+                </Status>
+              </BuildingUnits>
+            </Zone>
+          </Zones>
+        </Building>
+      </Buildings>
+      <Images>
+        <Image>/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAHgAoADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD1R5G3L8qfcX+Bf7tJ5h/up/3wtNk+8v8AuL/6CKYOtaCJhI391P8Av2tOErf3U/79rUQNPFAEnmN/dj/79rS+c392P/v2tMoxQA7zW/up/wB8L/hS+e392P8A79r/AIUwiigCXzmx0j/79r/hSea3pH/37X/Co8UUAO81v7qf98L/AIU7zW9Iv+/a/wCFR0UASiVv7qf9+1pRM3on/fC/4VEDThigCQTN6R/9+1/wpfOb+6n/AH7WosUUATCVvSP/AL9r/hSiVv7sf/ftagzTgaAJxM392P8A79rThK392P8A79rUIp4xUgSiRvSP/v2tAlb+7H/37FNAFGKAH+af7sf/AH7FL5h/ux/9+xUeKKAJfMP92P8A74FHmH0j/wC+BTBSYoAk8w/3Y/8AvgUnmH0j/wC+BUZpuaAJfNPpH/3wKPNPpH/3wKhJpN1VYCx5h9I/++BR5p/ux/8AfAqANS7qLATeYc/dj/74FHmH0j/79iowaAakCQSH0j/79ijzD/dj/wC/YqOloAf5p/ux/wDfAo80/wB2P/vgUwUYoAf5h/ux/wDfsUeaf7sf/fApmDRQBIZD/dj/AO+BSeaf7qf9+xTaBQA7zD6R/wDfsUCQ/wB2P/v2KSloAUSH+7H/AN8CnBz/AHY/++BTMUooAeGP92P/AL4FLvz/AAJ/3wKZS0AO3/7Kf98Cjd7R/wDfAptFAC7/APZT/vgUb/8AZT/vgUlBFABvOfux/wDfAp27j7sf/fApmKdQAbj/AHU/74FAc/3E/wC+BRikoAcW/wBmP/vgUm4/3Y/++BRS4oAaWb+7H/3wKaXP92P/AL9ipMUhXNAERkb+7H/37FN81v7sf/fsU9kphWgBRI392P8A79ipA5I+7H/3wKjFPFAAXI/hj/79ilWQkY2x/wDfApD0qPODQBLuJ/hj/wC+BTSzf3Y/+/YpA1OoAbvb0T/v2tIZW/up/wB+1pSKacUANMzf3Y/+/a/4UxpW/up/37WnEU1hTAYZWB+6n/ftaUTN6R/9+1qNl5pvSqETfaG9I/8Av2tHnt/dT/v2v+FQUZosBMZW9E/79rSea391P+/a1FmgdaAJ/Ob+7H/37WhpSUf5U+43/LNfQ00DIpxA2P8A7jfyNICg5+Zf9xf/AEEUgNLJ95f9xf8A0EU0UDHinCmCnCgB4NOzTRTsUAL1pMUtFACZpaKKAEpKdSUwEzSg0lLQA7NLmmU4GgBaBRijFADgacCaZThSAlRu1PzUQp4akBJRTQaXNAC4pKM0maAFPNRkU/NFAEeKQrUmKTFMBgpadimkUAKDS5plOHNADutGDQKUGkACnA0maKAHUYpM0ooASilooASnUlLQAUoopRQAtFFLmgBBS4oooAWjFAooATFLigU40AMop+OKbigBKUGikoAXNGaSloAKaVFOoxSAj24o5FPxSHigBnWkI5p1LigCMClzT8U3igAxTStSAjFGaAIitJtqU03vQBC0YqIrVogUzjNMCmVIpMVadAahKc00xWGhcikNSdKYaYAGIFPVvlf/AHG/kaaBmmscK/8AuN/I0AVXPzL/ALi/+g0gNMdvmX/cX/0GkDUDJgaeKhBp4NICdcU/FRoc1KKQCYoxTqKAGYop+KMUAMoxS4opgJiilxRQAmKXFFGKYCgUtIOKXNIBaUUmaM0APApwFRg0/NADgKcKZmlBpAOpKKKAFopM0ZoAWiikpgLSUUUAJigClooAcKKTNLmgBKUGkooAdS5ptGaQDs0optGaAHUU3NLmgB2aUGmZpc0APpaaDRmgB1OpmaM0APxSEUm6lDUAJyKAacTxTeKAHA8UhNJmlzmgBM0bqXAphFADs0uajzRmgCTNLmo91GaAH5pDzSbqXNIBlKG7UpxUZ4NAEhNMJpN3FNLUwHZpc1HuoDc0APJphY07IxTWIoAaXNN3UjU3NMRIGprYpgakZqLAKSKRsVGXpC9FgH5qNzlW/wBxv5GkL0wn5X/3W/kaYFaT7y/7i/8AoIpoNOk5Yf7i/wDoIplMCQGpFNVwakVqQFhTUqsarK1ShqQyYPTwagBp6k0gJaKbS80ALSYozindaAG4pMU6imAylpcUmKACiilzQAUopKUUALilxQDS5oABTgKBThSASincGjGaAE7UlKVNJ0oAM0ZpKKYC0tNzRmgB1LTc0uaQC0lJzS80wClpKXFIApaKKADFFGaM0wCjNJSE0AOzS5qPNKDQA/NLmmZozQBJmlzTM0oNIB9HNIMU4UAN3cUm6nEZpu3mgA3UbqQrSEEUAP3UmabSZoAfTc00mkzQA7dS7qjJpM0wJd1ODVX3Uu6iwE5amE1Hvo3UrAPJppNNJppNMB+aTdTCaaWoETBuKTdUO6jfRYCUmmkimb6YWosA9qjJpC1JnNMBpNJmnkZpoXmmIYaTPyt/ut/I1KUPpTWT5X/3W/kaAKsn3l/3F/8AQRTMU+QfMv8AuL/6DSAGgY3GKUUtAxQA5WxUivUeAadigCZWqZGqquRUymkxlgGnVCGp4NSA7FKDimhqXNADs+tIabmlBoAKKCaTIpgLiikzS5oAWikzRmgBaUGkpaAHBqeDUVKDQBLS5qMGnDFIB26mnJp3FLxQAzBoxT8ZoIoAZilC0uDRQAYxS04YxRtoAaaAKUqaKADikxS0UANopTTc0AFJzS5pMmmAZpM0ZpOaAFzSZopOaBDs0uaZS0xjt1LuqPNGaQEwanhqgBpwagCbdTgaiDU4GkBJkUxqTNITQAhppFONIaAEpMUGk5pgJik7UvNJQAw9aAacRSAUxBRTsYppoAKaTQTTSaAFJpDTC1G6gBCaTdQTTCaYh2aWmZpc0AO4oAFR7qUNQMkFOAFRbqcGpASEimORtf8A3G/kaQ5phJ2P/ut/I0rAVJD8y/7i/wDoNNBp8q/Mv+4v/oIqPFMB2aKbg0oFMB4NPB4qMA05VoAeDUgNNVakAwKQwBp4NIBS0gHZozTc0maAH7sUbqjNKDTAkzSE03NGaAHA07NMHNOAoAXNKKSnCkAoFOxSCnAUANxQKkC07YDRcCMU4UuynBCKQCClApQKeAKAEApwXNKFFPApDGbKUICKkxRtoAZ5Qo2VJzTSaAECikKU7dSb6AGmOk24qTfR1oEQkU0rUxWmFaAItpoK1J0peopgRbaTFSYpcCgCICjAp5FAAoAbgelIQKceKYTQA3ijFNJoDGqAdSigHNGO4pAOFOpgNOFAC5IozQaaaQD+KMUwNT1IoAaabU4ANBjFFwK5puanZQKjKii4Dc0uaTbQRTAXikxTc0oNAAVphWpMHFNINAEZSk8un5ozQIYY6YUNS5ozRcCDZRj1qXIpKdwIytJtqU4xSUXAZspQMUuaCwoAOMUxvuv/ALrfyNBYVG7jY/8Aut/I0AEoyw/3F/8AQRUJWrEg+Yf7i/8AoIqIikhkRFAp5BpnIpgOpwpgNKDQInU0/NQg07dSGSZozUeaM07APzRmm5pc0ALRmm5paBDs0U2nAE0AOU08U0CnCgY6lzTacKQDxTwKjFPU0gJAKdTVNPFIAFOApQuaeENAxmKXFP2U4JmkBFgigGp9mBSeX3FACL05p/BpMcUmcUAOK46UwilLGmnmmAhFMI5pxbFMLUCDFLkimFqQtQA/dRuqPdRup2Ak4NGPSo80A0APOaSjNJxSADTc044pppgJTSKU03JoATAo20tLmmAAUtJmjNIBMGlzRmlyKAFB4oIyKQEUFqAEANLzSbqN1ADwxp4aog2adQA5iKjOKQtTGJosApNITTCTSZpgOJoBphNBoES7hikJqEsRSb6LBclPNMJpN9MLUAOLUoYVCWo307ATHFMLVHvppeiwEu+k3VDupd1OwiQtTMmml6aXFADmJph6P/ut/I0F6aWG1/8Adb+RoAsSfeX/AHF/9BFR5qSX7w/3V/8AQRTODUlADTZFAXIpcUEZ60AQ4OKTcan2jGKUItO4iEPTw9P2L6U0xc8UAODZpaaFxTuaAHClNIKWgY3JNLzS8U7igQKtSCmU4GkMdTgKQEGn444oAQClANPWnhc9qVwIxmnrShaeoHQ8UXAAKeopNuKcMikA9VNSjOKYr+1Lux0pDJlAI9qaRg0wOelAc0ASBuMGkJI6U0HNOAGOtADSTUZJqQ0wmmA3caUNRkUh5oEK3NRsKU/Wk5oAYabipKMCmBEQaTmp8CjYKLgQZNG6p/LWmmIUXAj30m808xU0pijQBC1IWpdtJspgN3UZo2GjYaADNLmm7TRzQA7NGaSigBM0ZpKQ0AO3UbqZmkzTEOJozTM0maAJQ2KcHqDNGaLAWCwNNNRhqM570rDFJxSbqD9aYTTEO3ikLioiaaWosBKWBphNRFjSbqdhXJc0hPvUe6k3UWAeTTCaN1NzQAu6kLUYpcCgBhJo5pTim5pgHNJil3Ck3UAJj3oI+R/91v5GkLUhb5H/AN1v5GgC3IfmX/cX/wBBFMzUsifOP9xf/QRUfl1BQnNHNO2e9JsPrTEJk0bjTthpdtADQxpd1G2jFABmlzSYoxQA8Gim4NLg0ALS5puDS0AOzTs00Cn7c0AKDUgzUWCDUitSYyRSakUkVEDUitSAlHPalwc8Uimn7gKQCDNSKR3puQaKQEowaUYqLOKN1AyWkNM30m+mBJRuIqPfSeYKBEu6g4NRbxSbxQA8immkLU0tQA7JpM0wtSF6YEm6k3VXmuFgheVwdqAk4HYVz0vjrS0aHy2MiuxDbfvKPXFFhNpHU7qPMrE1PxDZ6dpBv2cfNHvijfgv7YqxpWopqmmQXsZBWVA2B29qLBdGpv8AejfVfdRuosMn30bqg3GjcaLATHFJxUW80m+iwE3FGRUO+k8ynYCbIpDiovMo8yiwEnFOwtQebR5tFgJCBTStN8yjzKLABWmkUvmUm6mA0ikxT8ikOKBEdGaccUw4pgLvoL0wmmk0APMlML0wmmlqdhDi1ITTN1N307APzRmmb6TeKBD80maYWpu6gCTNGaj3Um6gCYEUu4VX30m+lYLk5IphIqIvTTJTsFyUmkLVCZKYXosFyYvTWf5X/wB1v5GoS+aazHD/AO638jTsK5vyj5x/uL/6CKZiiRvmX/cX/wBBFNDViaD8UYpM04dKAAcdqdwaBS4z2oANooKL60bTRnjFAEZUZ45o2n0qTApwxTuBFtPpRyD0qwDS8UrgVutG1vSrQC+lJ5foaLhYhCN6U9UJoubhbO2aZ/mxwB6msSw8a6XdXX2crJHKQxAKnBxRd2DyN3yzik2H0qv/AGtD58Mew/vWwD6D3q0t5avcJBHOrSuCQo54HWi7AQcVIpqXyhSeWR2pXAAacGpuKdigBc0oakAoxQA7dQTTelGaADNJmkzRx60wFpDSfjSZoAXNGaTNJTAdmjNNooAzNU160063lYSJLOnAg3YYn0pNF1+z12Fmt2ImjA82IjlCe1ct8SdDhvLAX8JMd7bjPynG9f64rnPhvrljoc91b3rky3eHFxg4OOMc/wA6nm1sT11PRPFVyIdJeAyeW04KK+cDd2B+vTivDLe5nh1JpGzFcRtjaw6H8a6/4g+KbTWVW0gLmONucHo47jHWuFa9E9y8siAN5YAOT2HJ+tYVZX23Qtzd1bxBeapdwS3LqqwIFjUcBfUkdyan0fxNcwywWVvO8MSS5ypzk/4Vyj3iTW5Rl27eVfPJ96Za3AQqc4YtwMd/apjOe7Cx9RRnfCjZByo5HSn7a4vSPFml6X4VtGu7wM6oAUXlhz3rVsfGOlX0DzLOEjVtu5u9dRXMjf2ikxVG11qwvZHjt7mN2QAsM9Kna+tk+9cRL9XFOzC6JitJsqpLrenQqTJewgD/AGs/yqo3inR1GTeqR7KadpBdGoVpCtYsnjHRo/8Al4dvotU5fHuixg5dvxIFPlYXR0hFNNcbcfEzSItwRAWAyQ0mMD3xVOT4o2akKsEW4ru+8Tx60+ViujvaTJrzlvimrFBHbod4yuEY5HrzVR/ilduqtFbNhm2jEX689veiwHqGSaPmryOf4kay+8QwOSDgYwN30qo/jjXSxXL7SOvmdW9BjrRp3DU9nyfSkMmOpUfU14jJ4o8QSFN0qqD9/wCcnHsPU1Uk1nXZEbddqrbuOpAHv6mi8e4anuzXMK/emjH1cVXk1fT422teRA+mc14W93qsjsDfMAV4GMY9yf6VAEuiIwb64bB9cGQ/0FK8R2Z7o/iDS063iH6DNVZfFmkR9bkn6CvFXtS0TLJdTvlskhz+S+1M+xxGUsdxbbg5PCj/ABo5ohZnsE3jrRo/+WhP1IFZ9x8R9Kj3BeWAzgv/ADxXlxsbdUjjWEHByqn19TUv2aBVf5Ad3327ufT6Ucy7BY9A/wCFmWpCkJEd5wuCTmoH+J1sBIRGpEZwxCk4riVhRACVUOBjgfcHoKiCqRnaNuflXHU+po5/IXKdq3xMBdESA7nGV+Q9KqS/E6by3dIGwpwSE7+1csVGdvc/fahQpO7A2jhRRzsOU6hPiLeGVIzFJucZxt+79fSo7r4oTRokEVu32hmxvZeMVhpEqxyO5wqjdIx9PSsOO+8+7N3CoV4JA8a98CpVb31HoNw92577YXi31hDdL0kQNgjoas5NUtHv49V0i2vI8YlQEgdj3H51exW0tGZx1Q3NGTS4pMUihpNNJNS4FG0UrhYhoqUqKaQKLgRYo2ZqTFFO4iPy6DFw/wDut/I1JQfuP/ut/I0rjNSQfMv+4v8A6DTBRIfmX/cX/wBBFMB96gomBFPDCoN2O9KHpWHcn3UoeoQ9OD0rAWQ4xzS5X2quJBTg4osFyfCmkwuai30u6lYCXC0oAqLNLk07AS4FLUQY1Q1xpjo9yYJDHIqFgR7c4oSuwbsrnP8AjrWYYLP7IblEJILAN8wrzLSfEs2kXzTIBcCIlsEZ69x6VoeJ7qbXtGF7JZiC7hcK5B/1gx1Ga47TmjLP5zhFOUbPPUVM3sSup6dNro1uO31HIgYkqyRn77AdDiuu8H6ULNZb55N8s5yOPur6V5FoeyRUj34jWQbQwwGA9/WvV9C1WKC5SxWVpi0YbORhfpRdyKWh2W7NLn3qobiNBlpo1+rAVXbV7BCQ17ACOvz1XK2F0aeRRkViP4k0mL71/F+HNVZfG+hQ5ze7j6KKfJIXMjpCaburkJPiNoaD77k+nFU5PilpK/cid/x/wp8jDmR3Rb3pCT615xP8VoSSILEg5xlgTVN/ipdEfu7IZx/d/wAaOULnqXNGCa8lk+JurN9yFVH0AqjN8Q/EEoI3qnHG04P6U7eYXPadppdv+c14XJ401+Tg3ZAz6npVWTxBrUoO+/bPsSaVl3DU97d44wTJNGgHcsBUDahp6DLXsA/4GK+f5NQ1CUnfeytnsOKj8y4c83MvXON2B9KPdDU98fX9Ii+9fxH6HNVZvGGgwffvR+ArwsqAMNJI55+8xPWmNbxt95AeMc88Ue6Gp6D4u8SWuqGNtNv/ALPt/wBYJSMOPTiuFa2h3ENqcHy8IBk7ec4qIRR/wovvxShVGcBfyqJRUtwsNFvp4kVpdQeQbvuxxnk9+aWNNJBG0Xbhsgblxij9T+gpcAEksCe5Pal7OPYYjJpUhB+wXB3Z6sB+dOjFlAwMWlAHaTl5cke1G9F/iGe59KTevPPPWnyx7ASm8dlCDT7YLjJDknnsKkGp3iqFWO3QAcgA4B7VW8xegyTjI2jqPX/69KGAxwSSMjHSnZdALC6hqXUSxx8c7U6mmG71Byu68bAHOFxk/wCe1RbyccNz+GP8KNzAD5CPUZ6D/CquwsJ/pLuha7mbb15wCfoKTymcqvnTNtOSS/Gff1+lPzI4+6AvscZHt6Cgs+NqhQB07cf0pXYWGNaxYAO5sNuyWPJ/rSC0gO4eUMM25iecn+pqQb84GOR2HP8A+qkYuNvzZJ4wo6/SgAaGFQ37tefvMRn/APWacsQ5LKAPT/H/AApFRlAZ5DuB4wOnsPU+9IwPPzkA9Ofu0gHsc/8A1/60ZO0DHX1/maYIiTlj25BPH1NIY1YKo3HnIGeT/gKAHDaOQcljjPQt/gKfuSPJZgX6HH8h/jUYijRWyAS/XHf2HtTdozuOOOMjt7CgB/mrnczDPTI6D2FNMgJ4+8Oi+nvSbBnaFGeu09vc075VXnJB/Nz/AIUANEyADOWBPGB9804ygBiQd38R9PYU4KEJZiN2OSOi+wpgG4gkf7q+nuaAGmRiQQpHHHsKFdiMhOB0GfvGnHBB/ujqfU04buwwx4GewoAi3SbzwMkfOc9KN8pw2FGOIxjr708bMEf8s1P4sf8ACmO+T94ZPfPAoAMMRguMfxfWkw+fvAE/d46UArjHAA6D1p29Qp+YFz19qAI9hb5A445c44qWOF2OQxx0Ud6aGjyF3AL3PrWjHCwh81eGI+UegqZystNxpXOb1/UvLX+zIXzg5mYdz6VkWE4huVJ6Hg1NrFq0NyX9Tyaz1boaiMfdsDep7J8N9T2SXOkSNwf3sP8AUV6HivAfD+qvZ3lneoTut3G/3Xv+le/wlZ4EnjIZHUMp9Qa6lLmipPfZmdrSaXqGKSpPLNHlmpuOxHiin7KXZRcLEJpMVNsFGyi4WIMUYqbZ7UbaLhYg2mlKna/H8LfyNTbaCp2v/ut/I0XCxJIx3D/cX+VRrIGYqDyOorMu9bgtvEEWmTt5bSQqUJ6McCrIjKX5kGSHGD7YoegLUu5pQ1MooAlDU4EVA7iNGdjwoyap6drNlqhcWspLofmVlIIosF+hqgioL+6W00+5uGDERxlsL16U8c1R1wbdCvyenkN/KnFXkiZfCyh4H1Mal4cSUmRmV3Us5znnsa6UEetcd8OY9vg+1IGNzufrzWzqniDTdFjJu7hfM7RJyx/DtSs23Yq6RtD61kar4p0rRWMdzdKZR1jTkj6159rXxDvb3dFYj7NCeMqcsfx7VyEkzzyF5GLuepPNOyW4as9Tm+J2lpxDbzSH8qyb74mSXMEkMNgVDqV3E8j864HPHQ0hZuymlzeQWNG/1X+0FQXELuqDAG7aPyFZ5e33Fl06IH1ZiaiaTHbJpMu3UD6VDsykWxqU6hdqQrtOVwvSn/2vfsciYIfUDmqQBHXFL8x7j8qYFp7+9lPzXkp/HFRGWZus0h/4Eaj2Efef9KUE9ATRzMLIcVz95mb6sab5ak52j60u3uSaQqvofqTQA8Ig9B+FLvA4FM2A9qhvP3Vq7ISjAcFetICwDk8t+tL5iDpzWdpEjzRStLIzkNjLHNaQwOKADd3OfypN4z91vypd3p+Zpuc96YDvMOOFNIWYnhf1oUoRwwPGeKduAHyj36daQAA467cfrS5cjHAFJnqcE49qTeATjBPqSKYDsMOrfkKQqcDe5HHQd6UuRnAyfX1pvIJOMnPrQAu0kdTjFL5Y5znnrzS5fJwoz25/zijDDnKlu3HFIA8pTyw4xjHrQVXoqjGMUMTzz9OKU5AOTgH9D/ntQABAew54zSgBhhMY7n/PWm7WYZdiFPUev+fSlJJxycAYI9aAFBA4UfVj3oAPakC8DJPHcn+dIR/AASevXp/h9KYD/ujPqeP/AK3qaAo6tjA7Zz+fqaZsQFhgM5+8egH+FLgA/wC0Rz7j/CgB7OSSOB+P+c00MuM7hgnqen/66AANvp/Djr+FHLEhcdeTjgf4mgAMijKryw5IOePc+1KCqN1LO4646/T0FHCcfnk5/Om9eOeecHv9fagAMnG7k9uBz9KQMcn5SCO/YfT3pQQxyGOOmR1PsKRmOdq4BXr6J/iaQCFyWVQjN3AJxj3NODMqn5cuTySfv/T2pvEakAEk889W9zRngljnPU+vsKAAlic8c9Wz09qQGTIAC7h0HbHqfSlJ5wB8w6DstL8qqSSdp/NzQA05UE5G0n05J9vWnBJRl3kHmDuBwo9PrSjIfLFQ+PwQe3vTXkXbxjYO2ep96AEOWIOTg9F9fekxnILscdW9PammRf743N1bsBTvMjXGcYHRT3oANo4bB3HhVz19zTfJVsoTlRy7dh7Ck84MThsyH7xx90fSnebHtAXPlDofU+9AAQo24Tpwg/xpoChmAA5+8aDJg997dOO3tQrJgqAcLy3HNAANuzJX5Bwq+ppwGGAxmVu/oKYZl/1pB29F44FTW4aSTaqtvfksR2pN2V2BatLMSPgKNoOWOOprYMWEotYBFCBirW3K1EVf3mU+yOR16wEkTECuKKlHKHqK9SvrcSRsMV57rFobe5LAYBNGzEJptwIptjfdbg17r8OdV+3aGbKRsz2h2jPdD0/wr59RsHIr0PwDrZsdctJS+I5f3M2T2PQ/nWlPdrv+ZEtr9j3HbTSlS0mRQURbaTbUvFNouBHto21JikxRcBm2jbT8UuKVwI9tBX5X/wB1v5Gn4pSPlf8A3W/kaLgeE69qx13WI7yMtFMpUqIwWPA4rvNI1rXbm1jE2nIgGMzTNt3f8B61mzatoGggJbrCj7V+WMb3PHc1gX/ji8uMrZQCIHo8nJ/Kqd27vQlNJWR6X/ajJjeyFv8AZHFVdR1jUYrZns7eKRdud+c4P0rxe51DVZbgXEl5MZFOQQxGPpXRaL49ntmEWpRs4/57RjDfiOhovbYLXRr6z4pnu7WIm8VZMFJYkUqy/wBDWZ4V8W/2JfzLOTJbn75AyT6Yrop7DQfFVuJVZS5/5bQHBH+8tcZr/hqfSJAqzQvE33WVuce4qJSk1oJKzO9X4hwXeqW0VufKgZvmZ1zn2x65rb8Sa9p0Og30L3Sid4iqoBySRXikCfZnEglPmL0YcYp9xPJMjFpGd26k81dOTveQON1Y6PS/GGoWXhuHTLULCqbgZF5ZsnP4VkSTNLIZJWLOeSSc5rNizGgX0qVQafM7WKsr3LW4Vj6s+J0KsR0zg1fPtUZgVn3PhiOnFSMsLOuxcHPFIXJpAAo9KXeO1AC4A65pd3YDApu5e5FLvUUAO57il3HGAB+dRl1J60u9QO9ADsE+lKMjjIP4U3fnjB/KgHvtYj6UAO5PcflRg92x+FJvPQKfrSbm/u/maAHEkDJY4qC4BmjMYDc+9SBXPO0c+pp4DdgKAILW1S3QhQct1yasbVA6D6Um1vVQKNrD+MD8OtADwM9ven7QOv5Co13YxnH4dadtOOWOMUAPJo4GM8+gFRhCedzBccnNLtC55Y8ckmgCXoMsfwFc/fKn9p5x/GK2GPJG1jx61UFkJrgO6n1x6UAaHABJO0L60oIHfaD+f/1qAqKB8oJHHPakCgEcDj9KAHeYvQED0560m9cfeHPH+f8ACl2qB0Axz6f/AKqQKZOnyr1zj+X+NACeagJwwJHB9vr6U7zFUkkksvXjoP8AClG0KQnTufX/AD60cf8A6uaYDd4LdycZHGOKPMHy4DfN04/zilJAXJxj/P5mgIWyzcL3B7/X/CkA0Ss4BCMFBxkD+X+NKZDgqi4A7g9fp705jnIxgDt0pPzOemOp/wABQA0OV4C4B5yT0+vvS/vNv+r5zypP6k0owBubAC9+y/T1NO2l/vLheu0/zb/CgCMebJkALtPRuct7ew96czuMAbVXGDjt7D1pzORgDJDfm3/1qb75GR1PZfYe9AxmJcdUDD24x70Ydv4jsboMcsf8KeASR8vHUKf5mjJkJCsdvRn7n2WgRFiZjhZQCvDOBwB6fX6U8oVOwMcHkJ3HuTUuduEQAEDgdl9z703ARSScg9+7GgCModmTKfdv73tik8pi2Mtk9Fz933qUZLc439hnhBSkoiMWf5AeT3Y0DIfJUICXbC/x929qesAD5I+cj7pPCj1PvShwAJXdAT90bhhP/r0GRC3lB8dz/eagQ0xxhNuDsB69yfamFMyDCjzO3+yKUzLtZgwJTjA52/WjfGkanf8ALIeXAJz7CgBVjQBuMR/xHuxpSg+UlBuP+rTsPek3r5pDK3yjKx460qv+6aXksfvHuB6AUAOCKoYZ/wB9/X2puVAyAMdFWkZk+UfwHoMjP4+lIJF3nJQMOhyMCgLjuc7Ry56n0oCq/wAoOI15Y+tRGVdpAdQf4iWHP0p3nxYVdygAZIyMmgCZQHYOV+UcKtbGnWhBMjjk1UsLczSrIRhR0HoK340CqABxWV+Z+SK2QqrwadjinDpTsZFaElOZMiuT8QWO+NmArs3XNZWoW4kiYYqZIaPLxlGKnqK09KuTDPszgN09jUOq2ptrokDgmqiOQQw6jmlfS6Fsz23T/itYR2EUN1aTtPGoR2U8EjvTz8WtPLYXTZ8epYV5A0m6RJh92QYP1FTLjGc1aqcyvYOW2lz1V/i1aqcLpsh+r1H/AMLbB+7pX5yV5aCM56Zpd3c9KfN5BY9Lk+Lc/wDyz0qL8XNQt8WtQPTTrdfqTXnO7ninE7VyTz2pc3kFju3+LGtFjttLUDsME0wfFPX5HCrHajPT5K4QNxkc1o6JbtcagnHAOf8ACqi7uxMtFc9t8J6vc6rayG8IMwwwwMDBroSPlf8A3W/ka4rQp47DUoQ7qkboYyWOB61f1jxnZWEUq25EjhSN7HCjj9aVRq90EL2szxlbPD8+38qsxWwAHHpU5X5x+H8qcZ4bdQZZFXocE80WGV2tlIPH+c1UubJAD0BNST6pHkqjAD171Ra6VycufwBNMCW1L2E3mwSyJL2KNj+VOlmmnctI5JPUk9arieP/AGj9FNHnqf4X/wC+aVxkhB9aME9DUf2hM/ck/wC+aX7Rx/q2A98CgCTb6sad1HU1B9oUnG382FON3GnA2f8AfQoAmCcckijA6DP51X+2x55ZP++qb9vRed0f5mgC4Ix3owo6AVSOpJ/z0T8FJpDqEYH+tGfZKAL/AFp2PWs4akg/5aMeeyYpDqajoZCcdcDrQBp9sDilC5rK/tMc/LJ19qP7W+UDy2OBjlqANbgDgZNIcnrWQdWYD/V54/vU1tWY/wDLNcZz96gDaCk9qdwvTk1gHVCMYReDkZY1GNSxjKIcDH3jRcDos56kfnRuUEgsMj36Vzh1M4wEjAA2+vFINUlXONgyMHC9RRcDpDIoyS4yOue1J5iAsTIuR1JPSubbVZm/5agDpwtN/tSb/nqTn2ouB0zTQpkGQZGM0puIlLFmJ24zhScVyx1Gc/8ALd/woF9PnPmymi4HVNcpk8OduDwhpDIp3DbJlRnpj8q5U3kxPMkn50n2iQ/xSfnRcDqllX5vlYADOemfpTvtMYwoGAVz94flXJGZz13n8aTef7jfnRcDrBcxfLkhc9csBikF/CFB+XrgjcOPeuU3sf4D+dG4/wDPP9aLgdUL2IhmJjJU/KoYYPvSvqMOSDJHgDI+bqa5uKzvJUDx2pZD0NP/ALNv/wDn1x9SKXMgN7+07cEZkQg/e5zz/WmnVYAuTIm7PI55FYf9m33/ADxQfVhR/Zl7/dhH1cUcyA2P7WhBdjKjMB8nynil/tqHeh3fKB8wC9/asc6Xd93gH1kFC6VcuwUTW5Y8ACTk0cwGodZj2YL5bdnIXgikbXIdzkb8EYHHI/GsEwTDjNJ5Ex7mi4G2NbQNG+XYr2x/nFDa8CHAEmCcr/s/4/jWH9nm9T+dH2aX1P50XA2jr2XDbJOmCMj5qb/bQ2FdjnJyDu5X6VkfZZPU0fZH9TRcDWfXNxH7pumCN3X61H/bC+U0RjbaTn75yPoe1Zv2NvU1ZtNJFx5rSSMkca7iVGTRcC0daO5WEeSowMn+frTP7aO1x5CYY5OTnNMGmWBXPn3JHtHT00vTnhaVZ5yFOCoA3flS5gsIdcc7MxJ8n3famvrcpdnVEV26t3NNa10xBlhe490ApmzRh/Ddn8RRzBYX+2JxHsBQLnO0AYoOtXROTIM+tJ/xKB/yxuT9XApPM0jtaXB+sgo5mFgOsXGMCXAph1a5P/LdqvR6XaXUMc0Ubxq2flJyalTQLY/3j/8Aqpcw7GQ2ozNkGZjmkN9IR/rW/Ct0eHrUkDD/AK+lOHh614yr9vX8aXMFjnvtj/8APVvyp6zSuNyyORXQ/wDCO22P9W3T39aX+wYVUhFcEg4AzRzBYwEmkzhpZFU9TjNXILSC4Izq8UZ/6aAit7T9FiBdZI2ccdVq+PDOmyp80bIfY/40+ZCsamlSWiWcUS3kErqoBIcc1rqNw+Ug/Q1x7+CbNhmK6dD2zTR4R1GDm11Vh6YYineIWZ2mw80o+7XGiz8XWn+rvPNA7Eg/zpw1nxTbcTWCSgdwn+FO67hr2OtIqpcJnNc+vjK5iOLrSJF91JFSr4y0yTiWOeI+6Zp2FczPENhvjLAc1x4yrEHqK7661bSL2Eqt4gJHRwRXGahCqXBaNgynupzWdmmO9x9m3mI9ue/zJ9aubsxrjGT1rIR2ikVgCCDkcVpNMh3OmcEBse9CTUrDvoSKCTjrSycKFBqqt2V6KKa1yzHtk1VhXLKAnAAJ96Qk5AximyS/Z1UFQWZc5zQLqCMAyRby3P3sVXIxcyHY6Cux8KWgUeaVPPOT6dq49b+26C0BP+/XfeHpfN0xJPlBP8KnoBVxXKmyJO7SNDWFaTTpDGcOnzKfcVzcdjJdfvrh2kYqSM9uO1dRIweNlPQjFZVq2IHQqSY9ynkelYyRaZltjzD9B/Ks+702a5GY7khs/wAYBAFZ4164dgfs6nI/vYqePW5hw1sv/fdVzoOVjDo12iHddhnYgLtGAKzbuw1W0TzH5XOBtet8yG6hUsxQ9Rg8iq0xu4Y28wrcQjk9mFNrS6BPU59RqLDhX/76p32XUm/h/N66m1t454w6pgEZ5FWvsKn+HHfpWXMy7HGfYdQP8I/FqX+zL8/3R+NdoLFfTr7U9bQccc/Si7CyOKGkXp6ugpf7Gu+8iflXbi0GOnTpxS/ZQMjFF2FkcJLpdzEm8yqfYCrtv4fnnQHz8ZGcba3r+2xb4x3q87R6dpZuZAdoCjjrzRd3sJ2OcHhaU8G5OfTFUtQ0aSxdF81m3DPPFarWdx5fmG4bb53meeD/AAYzU+pTxahBaXCAnKMDn2OKpbiZy32ST++fzo+yN/eNbPkj+7+lKYRj7tVYRG+k2NusYnacuyB8L7006VZTWk8luJd0QBO/3Na2uxBLm1xx/o60/Tow+kakcdAv86SWw7nPWGlpcX0ULjKscEVae30qKZ4zaSkqSp+b0rW0ODOs2o2j739KpXUKfbrj5sHzW/nQ0Fytd6batp0NzBCYw7leTk8VQFinpXVSQAeGrQjBzM3NZvlH0FNLQTZkfYk9Kuabp0Ut9EjIGUk5BHtVvyj6Cr+jw51W3BHUn+VDWgJjCuhQXkdnIEE7kDATIBPYmtGHQ7dw7NGigMRwoGK5ERH/AISqH5Sf9KA6e9eg628tlppFtgSSTFckZGOprNqxSOca50RDcbCZBBjzGRBjk449a1LSwsL20+0WpEkZHUAfkaxbfREvbLULixPl284AcN/yxYHLA+3cVd8JX+7V5dOt4XSwEJ8ssnLMOrH3NGgHNG1Xe2FP3jSi1H92tIxHc3+8aPKPtW1iTO+y/wCxS/ZR/crQ8o+tKIj60WC5n/Zf9ilFt/s1oeUfUflR5Pv+lFguWIwltpkDFgkjKdu4dfmqrJZiVy7yq2eSFJAzUutnyNC0+Tgkbv8A0Ks+HXbRI8yQOzegIArMZMLFMElP1p32NMcIPyrGbXXF40yqoU8eXnjFXT4ltvK+WFw/pkY/OkBa+xpjlB+VT2NlH9ut8KPviuXk1Wd7sXHmAMOig8Aelbui68LnV7KEwqGeULkNRYBr2+ZH4H3jTfsx9q0ZIv3smc/fP86b5Q961sIofZ/pS/Z/pV3yh7/nR5Q9/wA6dhFL7P7ij7P71d8pf8mjy1/yaLBco+R71o6bbj7Nf+0BP61GY1/ya0tKiBtdSx/z7N396mS0Y1uZ1pADbKQVPHrWIvmW9+0sag4YjG4YrobBVNmnI6VzV2hBkKP1cjpWCK5jSm1gxRjNtknqCRisi4nS5fdHa+X67T1pQmUUCQZPqDU9rHHEreYxJJ4wpovYd2ygY2bjy2/Om+UVOCrfnWwTB/db/vk1DKiPImEfHOflNJTb6BY6HQos6LCQdpJbGWx3rWihAUkZPPOG6n1qDw/b+XoMIByuWzn5c8+9bMCkJyfphhwKt7gtiotuvUnLeu409bZSd2B6gEniryKOqkbfTd3pSBu4IB7/ADdaAKHkgnGBx2yeaR7dem3HH3ueKvlenTPY7ulDp8vJBHpuPNIZSt4grtxjkeoq+gx/+1/jUcSgFjkdf7xqwPr/AOPCgAAxzjP5GlC99uP+A/4UuMD1/I0mD2H/AI7QAg69SPxIpMsDwzZ+uafhgO/5EU0k9/50CGFSeu1vqtV5bO2l/wBZbQt9VqfBPUnn3o5xQMxbnQdNlyTaID/snFc7LpsMd40Q4TOMZ6Cu4kGQa4XVZGi1ibHGMGnF+8iZLQtS6QlzISOMKACT7VD/AGKEYRbx83Jp0mtG1ZVaPdlAeuKrvrjvKJkg4UY9q1b95mcfhRO2iRAds/U1XbTI4ySRnBx1obxAzAjyQCfeoRqjudvlg5NTHcp7HcR+B7HVLaKTPlMqgHBJzxnvSJ8PLGWR0ad/3eAOKZD4zbS444Z7IZKKeG7YxViHx3ZpI0slvIBJjgHpiqlZtkRlZIoal8N7ZI99vemNvRxwTXEzQ32lyuEuHRoyQcNXpOpeJ9KuLdJIncy9gQcD61w+tuJIp5EIbcc5FYObi9DZWktRth4r1WLCvOJV/wBtc/rVifVpblmkX90zZ3behrmoY5T0jk/BTWgqSpETsbOPSnKTIsVi93HykKkAdcVIL69CLi3Xd/u1UFw3fJNI07DjccVOpbfY1rK7vbq5SCcrBG38S8EVtf2cI7KaRp5ZAVxhmyPrXGrMzuoyetd0kgfSGAx9wcVacr2YraXLmlwKtlGPb0rQWEY5H6VBpiD7DH9B0NaCr70kUyAQjPPelEQ9KnI5pwHTH86YisIsHp06VU1BSrWyqxDGQHj071qbefp71XubZnnt3TkRsS3PQEUDKOpwH7LnHGRxWrFp1ve2SQ3MIljIB2kkdqrakv8AonXHIrbsE/dR/wC6P5ULcTK40OwFoLP7IvkZz5ZY4rnfEenwWMltDbQpDGFJ2r0613W35lrjvFU0c99GsSTSGNSrbYiQDmtILUiRzew/3v0oKcHn9KSO4gmdkQ5Zeox0qVlGD8h/KrEXPEaYurT/AK9Vp2kp/wASXVT7J/OpPEy/6Zaf9eq07Sl/4kWq8f3P51HYO5FoKD+3LTn+L+lZ12v/ABMroYH+tb+da2gD/ie2ny4+b+lZt6CNSu+f+WrfzpsGaMiZ8K2R6fvnrL2L6mtmUf8AFJ2JIz++esr/AIAfypx2DqM2LjqfzrR0JAdatcHPzH+VUv8AgB/KtPw+M63a/Ljk/wAqJbDW53FvbqY0OyMfRBTYIc5XaPvMeRnvV23X9ytMtl+Y/wC81ZFDDAFB+VBkjOFoeHEb4242nomKssvH4iiVf3T/AO6f5U7AeRlV3Nlv4j3pNqf3v1qU9Wwp+8e1HT+E1qQRBE7t+tGE/vfrUv8AwE0f8BpgRYj9T+dLhPWpM/7LUuSP4TQBuiTRrPwhbXmr2ZuollaNQoyRk5rMHiPwKo40GXH/AFyH+NTeIB/xbWA/9PP+Nec9qxZR3x8VeBB/zAJc/wDXFaB4s8DDp4fl/wC/K156vrRRoM9C/wCEu8FDp4dk/wC/S1qeHda8Na1qy2ljof2edUMiyNGoxj6c15SPrXY/DQf8Ven/AFxk/lQIlkVBLJ3O8/zpuI/QVPISJpcA/wCsb+dNyf7rVsiSHEfp+lGI8dP0qXJ/utRlv7rUARfu8fd/Sj5P7o/Kpct/dajLf3WoERZTPT9K6HweiSapMhXgxHIx1rCy391qs2OrSaRMZ4xhmG35hUVJKMbsaNk+L7VZJEXQchGK5DAZwcVA3jzT0TP/AAj+W3bSoIyP0rnpL0M7MhEbEljgZHJqLzWZyw2Lg9SK5PbPoizfl+IVjtZE8PlHHckcfpTl+Ien+WW/sHGP9oc/pWBvbDByrDvx2prNEQQQp54LL0NL2z7Ab3/CybD/AKAOP+Bj/Cj/AIWPaNwNEIP++P8ACufGCxOUOfvYA5oZQVxsiIHvjmmq/kFj0GdvtCQXEaBfMiDheOMjOKiVVZSNp6/Nggc1yw1ScRBTMFAXYBjNWl16RIwjbAFHXbzT9rEaOjUE8HOevUdKTBUgbjt6DkVzi+I3DEhkPOcFeMVNF4jDOMonPcKOar2kRm4UIJYE46n5hQydxu3Y4JYcVinxAPMBCrjHoOKT/hJUyVkQBSOqgUueIGwgb8f94U/B9/zBrn28QAn5AAnqQM5qKbxGQhKoA3bA6n3o9pEVzp8Hvz+ApNp9B/3zXLDxO8i48tN4/ujikHiqUMAYkx64o9ogudVjA6foaaQT0GPwrmP+EqYZ3ImAPSnR+KsrholLflRzphc6Iq3AHWkAx1rBbxTCQP3Xzd8UL4niZzlBjHAAp8yGbjqNvIrzzXTt1q4A9q6f/hJYiufLzWLcPaXF3JcSwo7OfUgikppSuJ6qxi6j/rIzj/lmKihnmh3GNsDHI7H61svDb3PzyIpxwBnGKiks7TDKq7SfQmrdVXuQo6FFZracfvFMMn95OV/KplsSY/O80NGDjdGuaF0yLJzKT6YqVLYwsHhuGjcdMU1ViDiX2W3vrOGMpJJPEp2c7Sy9xTFFm1ojTQFFLbVO7OPehZY8KZDmVf414NOmkgnj2hAgzuOPWnKrDXzIUHYqy28UaMC5jKjI5yG+lNjido8h0ePuScAfnVkyr5QQKpx3YVUli89iJZWPp6D8OlZOcSlFlwXtlbLjzGlfPRT8v502XU45RgBFAB4zj9aoGygx956X7LACVYtjHFS6jY7GGWFGeK17zwrqcBOxBMoXrGc1kSQywOUlRkYdiK2KaaBPvr9a7e3bOmuDn7grhlzuHPOa7C2d49IlkI3lVGVB5INC3QdGdXpPOnxf7orSXGOtcdaeMYLa3SP+x52CjGfM60r+M7pgXh0vEf8AtyU+Ww2zsPalArG0TWn1WFnkhETA4wpyK2gRx1/OkMNoB7UbR2x+dGR/eNGBnPP4mkBW1EE2pGB1FalkGR0Yx/LsA3bv6Vm3x/0cjHcd627JcxRjOOB/KhbiZbBXKnPFefatPrI1K5W212CCLedsZxkD0rt9Tv4dKsmuJiSBwF4yx7CvH9Vt472+muvN2mRixU81qloR1DS43TUrpXlDuOrjoxz1rZ2nB+b9Ko+DIzJfXSIiuAg5Y4712f2J/wDn2jP/AAKlz20K5SXU9Bm1WS3nhurdVECoQ55zj2qI6RLpOhagJZ4XMu3b5Zz0NSC3m4AhGB6PR9nmYENAMe7ZpKQnEydAXGu2h3cb/wClXbnwhfTXc8q3FrteRmGX5wTVgWbI2VtRu9Qw4qTEqHJtnP8AwOjmuPlKeq2Eum+H7O1leNpFlYkocjmsDa39/wDSuoeMzjElm5A6BmzURskHP9nn8MU1OysLlOew398flWn4fUjXLXJzye3tV4WcfX7Aw+uKmsoUg1a2KQbDn8RxQ53VhqJ2EGBEoqnZ/JdTZhZQzH5y2Q34dquws5iXMmPbbTIl3ZHGNx6ipAlIyOPUUSjMT4/umjYVB+6ScDODVTVTJBYPJG2COuwEnFMDzFlYs3zKPmPaja3qv5Vu/Z7Nhu+zyYPU7DSmysf+eEv/AHyav2iFyswdreq/lS7W9V/Kt421gGA8iT/vhqT7LY5OYpP++Wo50HKzC2N6rRsf1Wt37Jp5/gk/75ag2en4/jH/AAE0c6DlYl7pV7rHw+htrGETT/aN23cF4B965A+APE+ONN/8iLXdW1ytrCIYriRYxyBg96nGqf8AT81Rcqx52Ph/4oH/ADCz/wB/FpP+EA8Tj/mFufo6mvRm1P0viPrTjqUn/P8AH6mlcLHmv/CB+Jv+gRIfoy10vgTwtreleJ0ub7T5IIBE4LsRjJHHSukOpScf6eMe9IuqS975Qe3SncLHJTCT7RNgKBvb+dR4f/Z/M1uNp9k0pJussTk/N70n9m2O7/j4/wDH6vnRHKzEw/8As/nSYf0H51tf2ZaHn7UP++hTv7Ls84+0/kwp86DlZh4f0H50Yf0H51tHSbc9Ln9RSf2RD/z88fUUc6DlZikP6D86xr+4fzCB94cfSurv7G2s7N5jcEhR0yOe1cLc3G5mzk54zXPWak0kK1h4uXQ7SM54wO1DyD5syng9Kq5LEjJAx16U1gfMwfTqeay5QLQuJR/F+Ap63DopZmByeQetU84YbSckcmnhkIBGSB3xRyjLn2nKhtow3qeaf9pz91SB0OT1qgX8vGDx/OlEpILUKI0XRKS2SSSegp4uGzgP0qq08e1QAd3fmk8xd45HvxRYq5ZMgHTq3XnimxzlZM78Gqud7E5zzxSoOoP69qLCuXjdt7H1NRtMTnaR7g96rGQhht7+lNwSc8j1NFguW/MU4wcexFRtNtzyG9jVcy87vTuaQtkknPPfNOwiTcxBb7vbFIWJjPmORj2qISlQMHHuRTWkXkjIz19KLCJDIVH8JB9aQT7SOGHqM1FkEH5iR3pvbnOD0NVYC4ZgoJznPpR5h2nPc1V5CjmgMejcj2osBZ8xl4xj8aeJRt6kfSqnmHB4yKar85JOKVgLf2l94weD1FNedt4O41XydpI59D3pd3yjKnPrRZAWVucZ456c0hm3NnH4VXycZHGaUZPcUWC5Z+0Ddxx2pr3Bxxx9KrqRnml29x07UWQyVJTnAY1IJs8EkmqmWBGT8tDMck5yPWiwFp5h03Unm8dzx3qvkDnIz7U0yFicjtRYDtcweSHjuJoztGN561n3brcKY52EiE8k9a5u6vLm/lCozgHhVXqajb7bp8gEyyKD1V66WxJGhqOjLZNHPBL5sLEdxkflXRRuiaCsYI3uSzevoK5nzRKUx/EegroLmZWAQfdjjVRn29qjrcroZgd8tHwFGcU5MCAj1pMZkY+gpu4hAKl7jN3wvlY5OuN9dajHArkPDxxHJ/vmuojkIA5pIplok9qRCeSf503zMjrQJPemIjvD/o/4+ta4vbfT9PF1dyeXCijc2M4/Kse7ceT2PNatxp8WqaR9lmB8qRRnacGmrX1FLYwfFhudZlsLfTlZ4ZF8zzCMKAe5/CsXVda0TR9GuNI0638+8ddkt4wB574z/StXxn9s0bRrX7EdsKr5LNjJA7c15axJJJOa0vazI7o67wBzf3f/AFzH869AU54OBXnvgE41G6/65j+dd+CM9Kx6s16IlXAOcZp6t8pBGM1AH9v1pwY5piJSeOO9IPoMUgbHQEfjShvrTAUED6/WlBI70wt6Ubiex/KgBWYk9zUEYI1a3z69/pUw68io4mB1a3xgc/0pAdLB9wUsHU/U0kJwg6/lSw8E/wC8aoklfp+IqtqH/Ho9WW5HHTIqtfkfZXwaAMQHHUnJpd2ejUh56UKMHp+NSWKDUm4Y/wDrU0GnZ9T+tMQA+mP0pcgdh+lGR0oyPQUAJhW6qv5Umxc/cU/8Bo3D0H5inKM8cH9aAGoFPWNfqVp2yMj/AFan8DScZ5FBA/8A1UANaKNhgxKR7g00ww5BMS5HQ4NP5z0P5UuD7j8DQBH5Ftnd5K7vUig29s3WKM49ak+hP60bR7j25oAg+xWr8GCPg0GxtCR+5TI+lT8jjJH40bvf9aAIf7Os2OTAhP4Uh06yOf8AR4/fpVndnow/76pu7I7fnQBx/jWCG10+JbeJVLP8xUdBXBs6mMKoVsH73rXe+PW/0O32lgS/UdD7GvPWLBieCO2e1ZPciW45lZgBzjPbvTCEO3jHqc8mggnkEjj1okdztYDavqBTQhV2g5J5PQGmljnC9B3BpdzE9AV7UnKqd6/NnH4UAAViwx839KkyFXkEDpkColYbcA9+lPxiJgSc9s9qBocGAATGeMmhuMkKajyeg4PTA604kg5+b3PrRYY7coHBznvT1JzgkAfnmolUA5I4PIp+UzyePY0MBMNuxkc0r8KQDke1MVtoIIBUd6fgO2AcetAAMlQCuQKFRmJUHpzTRtBIGc/WjcWYBWI7YHeiwAy8EZH4UmABkEEHjkUrrtbceAOKQ4CnB+X1FBIpxyvfse1KCQuTggdqjO4dMketJuOT8pBz0p2AkwfvYyPpxTdxB7D6UmWVsBvlPamMCXORmhDHliRnA+lDc4zSDkYH8qTkjgDg0AL0PB/CgttGc8U0ls9CKDz0Ax6UwHB9w4/Wjk8c1HnA4FOWQMeRSsIkwPXPvSE8Y3Eimg4PHT3FHAGTgk+lA0AXHU8U48U0YyQcj0FKM7ScHFACkc8DikO0bvWkDHPIFI3ByQMUATaVhrgdz2HrV/XLprmCOKTBlQY4qlFo+qRuGWEA/wC9VyDR9SWZZdiZU5wTnmtL2HuV7K0nJRyhXZgjcO9X2iliMk0jZZutaUNvqBH70r+C1N9kmbho8g9cikBgRuxLNu4IpzMCqjNby6NbkZeL8hSf2TCThYhj1Y1NhlLSX2h8SY+b61vxTO2B5wx9BVBbCGLso+hApcQR/wDLaIf8Dosx3NVZJAP9dn2Ip5umiGXkXb9KxGubZf8Alsn4MTUb3ULjAnwf90miwXNx7v7QuwTBfwq9B4huYPkM8JC8Y8uuWa6iKj94cjuFxUbXwxgRv9QMZqkhXOuvfEMN/ZS2t2sTwuNp+T+VeVahHHFeyxwMTGrEKT1xXRSXZYY8t8fWubuzm6kPP3u9V0J6m94Jk8rULjKlsxjp25ru/POM7Wx9K838PXn2O7lfGcpj9a6qPxEiD5oGJ9ahrUu+h0KzrjkOPwpPtSj+/wDlWGNfiZs+WyfrUq67bEZOaVguba3MZXl8fXNL9riHSReKwjqlq/O4j3pyalaDl3wehwOaANiW8CwPJGVJAOAe9JHejYm4jcRzg1kS30EkTqpPTjip4ry38sNxgD+IUwNUXiZxk/kKryajb2uowSzPsjU5ZsdKx/tThiVK9epGaVtRdeQEJPfbRYVzs7fxVpT4AvCB05jIFSx+IdIG4Ne7TuP/ACzOPzFcE+qT9AsefpStqTouSsZPp6U9Q0PQBr+i4z/aUQ92DCorrV9MuLd0t9ShlkPRFJyfzrz5tbkXgRxH1yM1AdVkeTesUSsOjBcGnqGh26zLjkr+NJ5qD0/A1z1hffaIgzynd0Iq75iElBcEnr61nco1BNH6/pTluF9qyQsh+7LkfQU5TOewwPYUwNYTDPUfgacJR6n86zP3ucgJ+VG6UfwoaeojSMo4+Y/nigXAHdufSs0SP3jT6bjTxcOp5THsG6UAaBlXHLn8aaJhnGR+OKo/anJ/1ZI9Q1KJT1YH880gLwk5wG47ZFG/OGDAj6VSknK4JVsn0wab5zEYUNn6A0ajNDzMHg/pS+bjpj9azVkY9zn3Wnl3C5AB/CgC95jZ6/zpxkOOTn8azhM2M4x+dOFzx1H6ii4F7zfXB/4FSGce3/fQrP8AtXA2uPpupPP3Acj/AL6pOQ7GB44klmtYdrDyw+CoIJz61woKlssSqjg4712/i4iXT4yGAdZARg5JFcROCIlIO5s5qFqZz3I5GCytsIGOOBSNIwC56dOnNG47Q3ylyaGJ7AEjvnvVEh93HHzHtmkLFydxOD7daaWG75lyfWpSUK7myCOnpQAwKSCSflFS9VJ+Xp16kCmZQA5bPPANNYAIcYyTnr0oAXdzlTxjk0/PzAkjpUS5K5yMdTilDFnHzYpsY7Jxz+FEan0z35pGkL9eRnt1oJ5ByQOuM0AhxU/xYGDxikDncCB065peH4+YEjjNIpAQA8+3WgaYoK7znqfSnBcHeOlMJOflxj6U5yX6jgenakJiMXBJB69qaCGOCvWlRx93AK+p4qM/LJwvHtzimhDskcLn3o3mTBzjiglgRwcUmARxkHOaAHscAfNhu9JvLEEHPrxTWY7ssM07AA+Xkd/agAyc56e3pQCM46+9HmFcnGf6U0sM5IwccYoGmK29c56eppMEKOM8/hSltwByPoaQj5Qe1AXHDG0gcEUznPbmkOD1PHtSDb/Dke9FhDg+3IHX3pTndngD2pnAbntUhO8c5GOtADcE8c8UqnK++abuG7aM5pAM5+vrTGSE4HuKAwZCO5NN2gnp+tNVRjrxntSA7Z73UFI3WyjgZ/dUxtSvgcbgn0jxWaLuYnPnSgAdmNPS+mH3ZpD/ALw/xq7oqxbfUb1x/wAfBH0WoxdXLcm7lPt0ph1K8TnzVYejIDTRq1wT80ULfVMfyp8yCxI0sz/enkP/AAKkK54aRj7E0+O+Vzl7KEjPUEinPcjcdtvCB780cyFZkPlrjnn8aFijzny1x9KsxXrB8FYR77BSvezM21ZQvsqijmCxCsAY/JGSPpT/ALPJgkRN+IpQ99LkfvmHbb3pDbXigNOGiz90yvjNHMFhfszjrGf5UvkYzuaNB7sKE0uJ8eZqVurH/bJqwNGs15e780ekeKOYLFMrCpAa5i/Ak1zd+AL2UKwYbuCOldebfTom4sLuXHc4wa5bU4JGvZXis5Y4i3yrtPApptiZNoMSS3kgctgJ/CM10S2aP0WVh7Vz2gXctjeSskIZmTGHU8c10n9t3hUbVhQ+y0tStAGnufuWkhHqz4qRNJlYYW2jU+rsTUI1PUidxnCg/wB1RTDeXcuQbuQ/jijUWhaGlyLkMY191TP86eumxqR/pLZ+oFZjK0hHmNI2OpL0giTrjkd80WC5si3tY+ZZFP1f+lRyS6dHhWkT6DmswKjdQBj9aNoByEXHT3o5QuXzNp0ikeY3HYKarvPZE/Kk5OOxxURU5weOOTQVOdwwQPSnyhcQT7n+W2I/32qN5JGwVijH1yanYYK5PXkehppzjaCCB0J70WQiPzJtvIj/AAQUgaUhhu+uFAp4BVhuIBxg4FOXJOCTjp0p2AhAk5xIQfrUiyzrjEjfTNOZBjrzmp4FskOJ0klYnoj7eP60rId2Q/bbteBKR7CnJqN4jbhJ8w7Yq7u0np/Z1wR/12zTJH05vlhspEb+80uQPwosguyE61dn77BvwoXW7oKMqrLnngiq5QqW3fyo27SQVGPzo5UF2W11iXPzxA+gBIqca9GowbZvqGrNC5B5z3xSGLv29aOVBdmt/bsBBB8xM/jTxrdmBgidvwFYvlKM4603YDnge9HKgudCniGyXhhKf+A1IviOwH8Mo+ormvLDKMYzn0oMAwc4Jzzg0coXOgbXrRyW3kEdsHNH9t2+3HmqD6kGueaIEZU8elIIyvVuCM4FT7NFcx1Ca1BtxvjJHoakXVI3DANHn03VyDxAH5Tnik8oAZ/pS5PMOZdjsEuRuzhDntVhbkOQjIoH0rhlTOSGYEdMN0pSJByJZCP94ijkfcOZGp4slCxxxoFGcnj+dcTLK7jb19DWvqZl8pR5jPzkljWT0QMc7s5OahKz1IYzymchScduaGwECEsxHpSqxDbmJxnotIQCRtXkmmICCDtPKj9KfsDAYDYHP1qMlQcgEtnn0pWlbJyMkelGoCkHLEYx6ZoG7IwOD60m/OMjnGc0m4q3QnNADgvlls5APApobJKk8Z/GgHLZGRg5xinbcSZxz6k0AA+TjBPpjiiPIVtxyc9fShDtfoMe3alYbhkLntgUAI53HdnGPfrQcdVzz3FGCpyYiPbFIpIHzI20fhTsMXcVO4cYPWlaTC85z70u4FRleDzg0jKpwx/nSC4gG7GDjuaTdggd+xFAXDAK2fX0pWDFeDuOOKBCdDk5x1pGByMjJPSk2tjD/hTivG3P/wBamABjyMknvQXBXnr0OKXaCpGM+vP60gTBOMj8aWgARjBz0puR05qQEE4zxSHrnqMcgUAMIAPXjPelyQMHtTWG3nJwaUe55pgDDow5HemjPUcU7OOnHtSYOO+aADOTyuT64pc9VYGj5geDj60jPz2BA70gHkZximn5Rk4+uajBBGd31pcZBAApgPB9abgLnuKOcYJwe1NIdVzj9aYHrMulWkmB5CD5R0GO1Q/8I/ZN/wAszn1BNXvMcEAHsM8+1Ac5+/8ArUmhnP4YtG6Fx/wKmDwrbHpK6/WtXzBjJbA9zTmnjjAJYknoBzQOxkf8Iug6XIwOxXNSL4btxyxVwPwrU84EhQwDHtS+Z820ZYj2oEUF0iFF+W0ib6tU8disXS1jH0xU4YknkDHrSYbJJc/jTuFhQdowwCj2rC8Qp9qEXlkuVyDjoK2vKG05Ykn2oa0hwMrz60XCxwb6dNkkITVc2cyc7SPxr0RrOI4UKDUTabAzcrgD2oA4EGZOkkg+hNSx3t5GcLM/4812jaNayMecY9BUR0O05wT+WaYHLjVr9ThZwf8AeQGpF1m8AG5IHH+1EDW62gQHkFwfYYqJ/DYK8MwB7GlcDNXWpNuXsrRuOyYNIdUhJ+fTIyT/AHWIq+fDeCBuyv1psnh1wMo0pPsBii7Ar/2hYbcvp8qk/wB2X/GgXejNy0d4g9AQaV9CuQwyTnsCahl0edCPun1Ao5mKyLAl0ZyNtzcJ67owcU7yrFxldURR/tRkVmtp8yHdswemKZ9knJIMbAU+ZhZGo9pbDBGp25OOASRTBZ7vuXEH4SjP5VlyWUpb/VH8Aaia1kVsFSCPanzMLG6LG47BGwOMSA00addYGYG65z1rFEbBSPmz1zmmgzKcpLIPcMafMFjba1njIzDIoB7r1pghnX5vIkX3Cnms1by8UjbczAgf3jVhdW1OP7t7N/31mjmCxZMTKRmNyfX1oOQ2E4Ge3OKr/wDCQamMBrhm9Nyg1MniK/AywhYe8Qo5gsOPAyGJ96TruJH5Un/CST4w9lauD/0zxUy6zAw3SabCc91YijmQrEa5weGz9aQk7lCo+T6kYp51fTjIA2nunqUlP9acL/R/lLx3ikc4Vgf50+ZBZkew+Zlsg9BxTNwyBg8d6um50Tgme9XP99AaQHSZGPl6mQP+mkWMUcyCzKoBLAHBJPBzxTQQTjjjr7VfW0tG4TVrQH3BH86cdKMp3JfWkmB/BJRzILMzmyM7uMelHTIJOB07VcfSb08RCOTjqrjFIdHvwcGCQr6jBFO4imo4JIIGMjAoBBIZgQOlSmzul/1tvMFx3Q4FQmKRY/mR8dvlOKAFwMkDbj3ppLe2AOADSEZIGCB9OlACNyr8D260AIBuYkABu1IfnB7N19c0/aNpUnJHIx1phbaegYfXFAFO/QeQCAWPuaxmf5QAe9buoMTbYHXPQVgs6LlHHfoOKxfxMQ12LNtGcf7I60KTygHzEYxmrlhZC5iMgZl5wKSbTXiZmDMxHUgUDsyk24nntTgVEeWGT/KmlRkYJpUZS2D93+VAhAcFiMYPf0pRuGGHB9TSA4bB4B/Wmbhkk7sduaYErD5evI70mOfvZ9c0N0LYIzSZOMAdeppAKDkHA6DrVi0ZUlGentVdAQdhbOecGrthD5lweAAtNbgaEc0krARx5A6nHarW0eTukVVNTxxBF4FLJGGUgjitXsByTbQ7HcTycYpG+4AcgnpUjgRyyDGMMcVC+1sjf71j1GKF2cg8UoDE4BA9zTTjsCwpF4+vamA7cRkdfWlJO4AkU3g4KjApQAD1yaBACTnB/WkZnwABjvnNI4UcHKj1FBbLDGTj1oAcGyMnBxS7ieMKKaSVYkYHtTdx5JyaVgJCoIx29Ka3GMGgyfKM4/CmGQMCF9KaTAeRjnOc0ofapBHFRINy475o3YHJosArMSQM4HvTHOWwecU8Df2xjtR8vGBg0xgFyh9PSmE4YYGKdklTwePSmlWzjr60CAliw5oDYHBPvQ23IwRihWXBAHQ9aBnpzQMMCO5kHA/lSbLxekoYdgRUjEjbyfuikBfPcUjQRnkSMjyHkl/vFgFA+lQi5mGSYW3ex4qby3P8fX1FIkJByZWI9OgoAIr5IgQEcMepxTxqKD5d2Cf7wIqQBMcqDSbIT/AtIA+1xsgQSK2evPFTC6PC8EDrg1Xe3tyvKZ9qge0jx+7VgfTOKLCNMXYDYO7jtUy3sZYZPPpWJHbTKeDgegbNTeRNj5ZWX9aYzXW4V2+YgfSnI0Tbj2FYoW5TITa3uRTvMuFUKUXHfkigRsqYiT834Uo3Y+UcVjfaGC7drenBqT7WIxjdJjoBigZqgkjGW+lHG3BJNUF1BVT5pAPrUyXqEfLIpHsaALijjhc++ae2WXk1T+2YXjOPWlF4uw4OSe+KALBjUrkdfpQIhxjB9arrd5yu/wDOpYpkHV8Htz1pAOeDJ3bQPwpn2VcbvLAB7kVKjg5O8YpBIpJwfzNAEX2UHO1VUd9oxUbabCc/ugSepIyateYA2CQR7HAqQFNxAI9xnNAGU+iWsnDjg/3eKifw3ajPlK6j1JrXYZbqRn0NLllON5A9AKLAc+3h6PIG9j9Khbw8uSQfxJrqVHfOR+tBTL4C8euelAHIHw5J1U5PbioJ/D10FBCjr2Ndq1t/EAcdPc0iRSDIUnA/SgLHCNoV0FLNH06c0n9l3CQ88Z5Heu8EJPVyV9MUCBRx8mT1DDpQKx529kynDq3P+zUZtQGxwCPWvRXtYyCQiY9xio5LC0K8ou88kYp3Cx526Mx2uuMdMHrTTb4AIPJ7V3baXYyNlo1wOOe9RnSdPlbaqEberMuFH40XCxw/kgMBk5PoM1KqbAxWNmc9AtdTNodkJTi6iQduc1XOkWYxtvVJ9cGi47MwD0OQ0Z7AnBFRrPcA4jnkGDwQ5rfbRYZMgX8YyccoacvhSaZf9FuIJ9o5CnB/I0aBZoyIb26Z2Rr2YSjphz0px1XV0Yhbx9o9cH+dTy6JcQZ+QddpwO9VptLnjYd/oc80XQhW1zVU3B3RwP70YNQHX5iwLW8DHpll/wAKVrO5KEGORh3I5qubNs48px9QaYFxdbRhiSxgx/s5FTRXNpOwItNn+62KzPsrDJKvxx0xUkCFJBmQjGcAik2+gifURBJZlYYWjZTkszZzXMynau8pwfWujlZgpUbAxHXJrF8rdbS5GWDYUn0pK/UGjS0VgbXcMhSxwPSp7v5s4JHynkVU05vLtQoXABNSySEqw9RUsq2hiOQWAUjPQZHX3qPBVyOCauR2SyASGZg3pjpR/Zu4k/aCD9OtUrGdmVmy4z1PftTSpd1DDjPQ1bOmyk5Eq0x7GckYKnHvTCzK7BSSS2CO2adkhR05/SpHhcHb5ZPpzTWiKjJRg3pigQ1l5JzkDqa0NKjeZ35IUVllGyG2MT7itvQyx835SBkcYqorUGbSggc9qe3K1Hupdxwa0A5K7XFzMSeNxwKrDBOefpVm8d/tMmEbG45HY1AWIXHIz7VkMUupIAJHt0pMkHpn3pGDHbuXgd6VVQkgtz2oACCAOTij5cfeyaQFsc4wOPrS+WcAqDn2oEG4t8uQT6Gk3sEweSfUU3yXY52HNS+ROwAVWFFh2E2kR7mZR7etQebgHrVr7BcHkrn3NI2nS5B+UZ96FYLEKAMOelPMYZTtHNSLZSKeWXH1p623P3wP1ouFmVlDAFGGBQwCjs3NWvs27hpVH4UosrcdZmP0FK47FRTlcKeaXc33gAT0OKtC2tgeDIfxxSpHAmcRk59WoCxTLSAbhUYc7vmyfetIFV6RL+PNSecR91EH/ARTCxnbMKGXk/1pqo3J2MD7CtJWkY/KB+C08pcMP4ulAWO8bGV442jn8KQHHQUhYbh9B/KjIPbFIsXcemaQk+pNLxjFLTATJNAyB0xS9aMUAG49KXg9aApxxS4OO1ACDaOOaUj0GPxpQMj1p23j2pANBI74qRZHI9RTcDvk/SkyV6ZFAEgc/wB1fypQyOPnjQeuBg0wepbNG4UwInUbiPIJHbB/xpgtElOHQIAezc1ZyPQmjI7ikBWbTlydkkoX0LZoWxdE2xO4x71ZyCTjP40uSDkNx6UBYq+TdICBLjH95etNMl6nylY296vBmxwwBo+Y96AsUlnug3zRggdMGnG6kOQYXVR1wc1cBxwVB9yKdvUjDKCAaAsURqMQITcUb/b7VMLhAu7zhx79albyXJ3RAj3GaYbCykIby1/DigCaK5JX76ZNTLdEjHzHHp3qp/ZUB+6zj6NTTpfB2yyDHoelAGgt8gBDFg3ap47hOd2Svv3rHWxuo2yJ92P79Pm+3MnzyZGchQM0AbH2tVbqMt0B4wKVbhFOQRjuRzXPu9yFx5Kn3Oaf9ofbhoSSOMZ4osFzoDcx43luTwBnOPypUJfDq429c461zSXKZJdJl57DtTmv0XaqOwz13A8UAdIREQGYZb+E5qMRxudryEnvxisSO+Eal/PXOOhJFPivZHwxK4PcHmkBsssSPkLwBhazLq0mnb93Ihz2fNO+2hiI9p4HP+RSNcLnLhlX2FA7lNtK1EZKR2zgdxJ/9akXTNQJjJFuEY84fJArUW9jSEAMMnjnmkF3DMceZwO23FO4XZGNOhik+6JEx0L85/CnAXQif7PHFb5BB2jLf/rp6XMOGIG0D+InIPvTBcqQAzM3OflNLcLkKWhiQBfMDE5YyMSWPvQFcZ/dY/3qttOwYEoTgdfT86arvIjyMPl7FjQIqMnyKeM9yBxTfK/efOEAx1FXmYBVA3At7VG2zzMODuPAyOtAGc9uGB2qGIOeOKVoT0ZIwDxg9a0CY1VlaPaD1PAqkyx4xGpYg+nSiwFI2yqW2rnPbaP51WaxhL7nhVh/d2jA/KtgI5cBsYbtn/CmSIA5UZyemBxRYDGeyt1BVbdVz04NQfYbcg7kYf7prceBgNxYcfiahaDLDOSD0CjJosBhjSrccRuwHvzUcmlJjKM1dAtqCWU447HrUZtdxICHI74oA5/+zTjiTn6VG2mTqMAkn0roXtWAyVxURtuSPmH60COdayuEHMZOPSo2glYjCGujNvg/eP41H9m6so578UWAwPKmA+4antpGty29DzW19ndQCVwCeDTSjE8qPx70LQCh9tT0NPW6QjrVh7dOSY1z3HWm/Z4sf6pT9KrmYrGV54AIHT0pnmxngxRn6qK12sLRgMxlT7Gozpdrxy44/GosMxyluZiTAhXH3ecZqN0iP3YEH0Fbv9l2oGVZyfenrYW3l9CH9OtMDnBEo/gH5VIpKjA4Fb32KDGditQLaMHiJfypisYIZz0Jp4hnI6Ng963fs/oqj8KPII70AYf2SY9Q1OFlKeCAPxrYNueTjNILfHQYP1o1AyxYNnk/1pwsQpIZ/wBK0zC+OPypogkJyciizAzRYJnJkP4ClNpEvd2/CtHyGNO+zt7UWYGWbaPPCHHvSG3QZKoM+9aptj6D86T7JnPNFgMwLkDES5pwix0Cg1qLZxnq2D9KcthGTgbm+gp2AyQrLwOKUox5I5wea2RaKh5wR6MuDU3kgodqrjB9D2osItFlwPoP5UuRjqOaiJBxlTjApdqZyCc0FkowTTunrUQBHfNKpftQImHAxRyOlR7ieooDev50DJckHGaXcQvI/GmZ54/Kjj3zQBKDmnA9qjB4xnNO6DJNADqU4xnNMBIp3THT8aADbzS7TikyR34pcnd9aAE2npnml2nGBSk8+9AORk9B1oABnindxgfnSA5PWl4z1xmgBCBtOc/hSY+uKdyOvNGfegBM5OATQBjvmlHJ4FOJ6cUAIT2xQFGSTk/SjBB60ufm4pAJgAnk0vf7/FGASOKXjvz7UDDL9ifzqQTSDHUio+O3AowN3v8AWgCdZT18ul3IeseeagXqck/Q0vJGd350ATYtyCSnPfApjW0DnOcHsKbgc9/WkwuepoARrGJvQ/Won0+MjsvoRxU4A7c0uwMM5/OgRTGnRpyGz9WIqJrWccC4Jx1B6VpeUoXrk0zYBnigDP2XYORJn/gPWkR7pHJZFJ9cVp9DkEk/lS7yB0oAynlnclTEuegwcU6OVYhgpISOmDnFaRIP8INR7VB+5yfUUBYo+epcv5rnHHzCrIvjDCBDcr+K5NSeTGckqB2pptoD6Z+lACl3ZtzXQJ92zUckkvmbV2MCOqnJoazQjAABPpUR08bsjIbsQ1AEoVkUvIDu9BTPtLeUQmcnjav9ahazcfL5kmR05yKaIbpFCrcnjgBloAnEhDgOxz6KORUouI0cgK/I6k9KoSQ3TdWVwT0PGakR7hWJaGMD2NAiwZtrFVYE9hjpn3pPMwAu3GBzjp+dVGdt7N5IAP8AdOKUzR7Sphkwem0/1oAn8xc8NluvFK1xJuxu4P8As1RSSI/KyyKue4/rU00yCPAuWYAdCvH0oAnBQrw+4d8DpQHjOYyuCOvOOKrpgqGaSMEDOxecGnSMVAImXH90deaAHqFcnb823r6U4IsmNhz64qOONlJzhs843fzpxeVVMRi8tR0wOtMBxijAHzk59ulO8qLAXk56Y6D61DvkZCGQhegGOcVCZmkBUOVGehJpASyRKT1UHrhR1qIxgngDI5Ip6AyJkggZ9KUruCsoI7nI6igCPyBjgDB7DmjZzgAk9MLUuQVyrBB3BIpquQcAgL1zg9aYDUiQEBhgk0jQqrcqBzzg9aQqc4jO8Ect6U+MKBsydwHUmkAgWMn5FxnrR5SZC7Q2aGRonABBLDn0J9ackmEO5cN9MimA9LePo52H6ZppgXPVcjvimiV3Abb07dRTjKSPMA+oA4NAh6wFlGwgComtsHAXfn2qUTKqZ659OgphcnpJkHsO1AEfklThlK+xFHlMT0BIPToaf5s3KGRsH1pd+Rtxk+tAETR4/hOfQ1EVQcMG/Kpwcg4Hzd6jZWRs4AFADGjCdd2O2RilQKQSARj2qQSA/KSpHuaYXTB+dQPrmgBDxzlRSGbaDhj7dqY5jPKyAn6GmM8Zz8rZHoOtAEyXDDncufXNMa6cluEJ57e1VyxU5ETMvdT/AEpd24NiDaMHqeRQBskBsZweB/Kjyk64ANRuSSoI52ikAb+E80xkphUjFHlEc7qaGcdTTgze1ACbW9Mik/CpA+ByKXjHJoAiCr1OQacBxw34VIAtHlpkZyDSAYCQeMZpwaneV8vH60hRvWgBN9O3ZNNKuuM00+nByaAHk89KevXPU1EBg5oB5680AS4wcZz60ox0NRAkd80u888YoGSDrzxmlDHHvUW4f/XpwcAZoAkz2z9aQDJpBJxgcU4EEjPP40AKM9Ouadn2qPcp7E4pd+QF4HcmgB3fPSnAHjimE5+6R+NKOCemaAFxnnvTh27UwZ9CDS4xk+vrQA7K/jQMZzn86TIHNKPu5wMUAGe4xQOeRgGl3YXOBj1oJJPocelAC7c55FAGCPmoPIJxz2zScY57GgBdh3dfypNjA44PtmlyMDn9aBweMA4oAOSMbcetNweRgZ9qcTkY/lQRg5HcUDGrnGB+dLk8ZNHY88DuKMDr0/HNAhC/zEZprFyOCV/WpeMUAZ6cUARrnnJz60oznjHtQEAH196CnOBn35oAUbu5we5pQccZORTSpAGCfWlIJXqaAEJJzlj+FIQO/wCVBXnOPrQV7AYoATC/xc0u1M8DGe9JjnGefakwRQAhRDkECm+WpOQBUg75/H3pCF/GgCPyVb6dqY1tH/dB/CpW2gZGfekBJ45xQBWayib/AJYg/pUbWELD7rD8TV3JHGefek57Yz7UAUf7PiDbgzjj1pgsHD7lu3B9OtaXbkDPvSEJgYA/CgCkY7pW4nBGOmKZi7WQkiJuONw5q/gE5yetDKDxkgUCKX2m5yQ8Ckd6al0BnfZsR0ARsCr2w4GWyPekaFRyBn3FAFNrmFgwMEq8f3RUYuo3LoX2JjGGUgmrhjA4weaYYx06/UUARmSIxbFlUccZanLILgMiCIY4JLCmvaRt8uACepxTDaQL/wAsx+FAFwhooGWP72OAoHJqqRJNICAVboxVf4h60z7KhcbSye4JqQW4UZ3ybvUMRQAhXa2XdcHvnBqLzoYmZjKCD3HJqX7PFuLEZJ7nmnGKEjbwB7CgRC8kJAOWb3C0gmIABiL8dTgUojxx6evel8sk8Hj0pgRtNMy48iMAdCSc01TclcGXH+6KsbTng+xFGGHU/L6YpAVWjeThnYml8ssuM5H+1zVoR8dQM0gQDvigCskPPIUfQU4wnOQR+VTlYwOc/gKNqgcZPsaYEQXIwTj8KQofxqbB/u5HvSfPtNAEfljB45pBCDuOex/lUgDcc0mdu7I7H+VAFg5yOOw6/Sl2j/JoLZ2/7oozznpQA7A4x+lOXpimr34HNPzigBcf5NAAz0poOevP1p3GKADA/OgjB96Un0pwPHIoATce4IFG4Yzjn6U4tg8qaCRQMN2RjIoGDnIFNOPTNOPQdaAAovp1o8sdASKaFOep/GlJPQc/jQApiBI6YpvlHnHOKUNge56UoPHr6UARNG+eMY9xSqr9wfwqQMp74xUisCDzj1oAg2gg5NGxVPBGPWpyi8ZNI8K44z+NAEAxyVI/Din4YcY6002qlcqSCfSj7PIq8OfbNADgcZ4xml3c85pu2UH5mBGOmKeFOOQKQw8wEZGPTNO3NnI/OkC5IOBgUnc8UAODDOKXd7cUzvwQcdaMlugAoAk3AjggY7Z6049sn8+1QjIPTdj2pQ7DJ24P1oAm5x05FNJLYAx1qJjnpxilXGchufrQBKByeKQc8Dmmk5XAAJ7c04cLjnNACkZ+719aTjGSKbznIbr6cUpIHU9O/c0ALtOMjOOlKCAAATx+tNLgn9aCOOuaAHAnHzY/CnDbjJBGfem7eByCaTnOc80AP7gZNKx7AH6VGCcAHGc+lKOcmgB/OAf5UmBwOuKbuxg4PWkZjuAI4HagB/QZ7Uhwcc1GWwc85zShsD60AOwA2M0nBXPU0g70jMVPJ6elACgccHAHrSMQM5akDcdufWm8846mgAyueOn060hcEgfzpR69fagDJz0zQAAng4yaX5WGO9H17enek3DsuKAFK49aTbt/Gk38cYHPfnNL14JxQAhHHTJHWkPbFG0DODmjAJJB/CgQFiegyfekyD0Bx3FDZz6CmjJbk0AGMetLj1J/GmnOck59qCCPpQA4c01uoPb0pDnpgY9aCQeCDkUAKRk9CPpSMvYsTSsST0ppPOB170AM8peoJGe9N8o5+8KlyScfypuCCaYEfktnOQR1xmkMRHfNS4wM9aORjIoEQtGQO9NBcHHJqfA5zScds/SgZAeAcnBoVh/ezVghQPu5oBBbkDFAiA425VgabvqdlSTsKb5Kd1BI70ARhxjrzRuGOp9cU8qvQoD6HFGEzwMfhQBCTnkH2wabzg/Q/wAqmManIyfwprwHaTnqDj8qAJmbG3jqB0+lG7PGKbu6cn7opM8GkMkB78Cnhvf9KiDg49hS5Bx1oAmByeaX0HNQ5O4A09XHQigB5bn1/GnZ7ZqLcKcuG5B5oAkzzyeaAxLdqZzg80bsDGBmmImPp39qMZP9KjB5B6fSlzu7igBxBPA60YPBxTQPSlyy5yQfrQA4D1I/CkCgg8Ubto/nzS9R7igBpAPGMfSkZCcEHn6VJhcDHWk5A56UAMUupOQDSrKAeSc/SnEAdx/jQFB5zQMcsi44P+NO3c/KM/Wo/LHrShM4+Yj6UASA9+/pS4JOMCotroc54+tODHGKAH44xigo2PlOeeppDOEGWHHQgUCeMj5ePY0AIYyR0FHlnGCvT0qTeCcggmlGCSOM0ARHK/KAabyQd33h0BqfbjoSKOWwDyfYUAQZJ6Y/GkYZOMY+lTFQRkDHODmgRY4BPrSAiUccDGOgNJkqvJw36VJ5eOmD3ppjOOADQMZ1UYdaMseuDx1Hagw4OSAPxpDGMEDcKAHBz0wenpxSq2T2AHqaaUJPH8qbgjOG3fUUAS53D0z2o3YA9aiBZWO765pSwz940ASkn2HqM0h3ZyO9RdweSewpd3OePUCgCYeoIz3pDyASMZ9Ki8xjjOaXJ2nPQ9KAHc9M/nTgxyATx61GHHf9aUkYOetADjkY4/E0m7seW9aTzFAPOc+tBJHIx7igAPHHbGaTgtknnFBIJ+7SjqB6elAAMdueO1ICOAM/QmggDI9OwpwYgcYyKAFBBYDvSDGe/wBaTepBBwD6CmkjnHT60CHbRnBo4zg8CmZwGPXPrThwBnA+goAMZOBwcUbTj7v4U3t369aUE5xxn1oAXJ4IHSmEEEkd/wBKXJ9/woLZ4PPNACdRz0o4yTzg0gI+hpCw296AFY4HQmkDA4OKDjsSQaN3GD17UAG4DnFHB6jgd6aCdxPP0oLHGaBCkYOAMd6QjJ57Um4jnqfrR5mc5HNMA9AOaQhu5P8AOjIOTjmkBwMnvQMXJz0JoL85znNJyVxg8dDR3/kaBBnAzjPrTWAxnkEdqBu7jP40NycjOR7UAAA9s0EAdcUZX6/Sm8Hrx9aAD9KacjIJpSOcg59qXAI6kUAIW54696Qu3PJ6E/pTmXHQ5ppBUnJB+U8enFAETNyoOfujFKrEdc4FDc44P3R1poPTJzikMdu5FPDYHOPaoic9zzT19c5FAEm4A845704HPTtUW7uRn0pckgdQP5UwJj8w57+lIAQOvFMBPrgU4MAf60ASchfmP5Uu7C8/kKjDAnrTuTnue1IBwcZH0780u5SPTHtTfYsD9KMdcn9aAHhh2pQ/Oev4UwcZ4HPelxjnP50AO8znpTi233J96jyQOgGacu0AY/HmgB2doAp4IbHP5UwYLcmlBGCMYyaAH85yVzSk5YnHamcYJ6+vNOU54zjvTuFhcA+tLgnufpmgFTxnHrScAHByf5UAHzAe1AI/GjcCOvFKSeOmfpQAmMnPU470hjHTGfpTmIOPalVsZ7UANUbW60oAOTgjNOHQHHP1o/DJPX2oAaFK9CcH1p67x24NKvOB1Hrilyo9sDnNACbjj7vAPNKDwDSkDj+dHyEZI/DGaAG7huxkj3pchcbaNnoQKRo8/WgBS3JBFGVPOO/Q0gBBx1HcmnELz2FADWwcZB+tGzKcf/rpMnGGNA4PrjvQAhj6n9KYUwDxnPfrUxbPDA59zSYzznFAEHlg4JBwfSkMSjgjPPFT8pnJzTc5ySaAIjER0P5U0B92PxOelTlQeRgfzpVCgjtjp3oAgZWAyQMH3ppO1jnPWrBGGYZ/MUmzB4UGgCBSCcc/U9KOuQDn8anI9hg9eKGiXlgeD2pAQnJAyc/jS84JzjjipDGQeoIphQjBPH0pgJgkglsH8qbjJJAIA96QsckAHGeuKQs69PvetACmPI7k0gyCeMd+KaRISfmX8jTSXxyhP+7SAk3ELnjB60qyFm54+pqIIcZ2cHsaUtwRt9+lMCXzABgdR1pAeOevqKgL55ORjjFAI9P/AK9ICyW6EH2pAe+ePp0qFfbdz6UoPXrjrmgCTggc/UUhwT0NNGWGcjHam8sSRwfSgCQHnjikz1pgbByM4/lSlienA9qYC9+DijgGmkcZyR+FCkEE5oEO79KB9PpTDnGQeD+lKSdvTOO9ACk+2D9KQHjHWkL9OevvTCfr7c0APzlj1pWPSo9/bBoMg6YxQA/BPJ5pCwHXrim7sDuaacEDP1oAepPBpCff9KQn86M55zx6UABZSSMjikDAdDkUhGQOfwpAMnpigB/Xpj6ZphwQ2fQ/yoJweSG/ClyME98H+VAETN86jP8ACO1Lk/ie5oYggE8HaM0DlQfwpDExu7A470mAehJ+vanbMgAg8e9NKFSflY0AOBPY0byeO9IN2M8YPUUoUkDjrQAoyep4707ef4hxUXIODjHp61IcfjimA7cuQAaeJBuG08nrUQKKvQGlGZCcZP6UgJDJnsafuwff2qEEknk8dOKAcA/epgT7gQcnmlz9eOlRA8ADqepp6n357UAP3EHjqfakU8jj3570E993Hc0Ag9c89jSAUnvnqecU4Pg5JNHA+835DpTOGOM/pQBJvXI45pwfaMHHNRL8uQMHNO+8ckY9zQBJv9qQ5I9CaaBk9h6E0AMW4HGOOKAJBjOaXpn17UwgnkngCkB9RgdQBTAlBIHqe1Jk9OlN3c9APanHscigB4wBxzS575/I0wHjPGPagHnaM+9AEhIGD19h2oDMT9fSowdq49adnjk0APyM8g8frS+ZtwBTFk/hGD3+lN37j2J9KAJM+Yc8k9qcGBOAOahVTySQPp3qQ5B3A4+tADiw5HNGduCSMVG2ckHPPSlBxkt2xxQIeRxwRj1poTnp1/KkyM5wTShsnB/CgY4DDYIyaTBAxjjHenDGeMfjSFsY/hHPSgBPLzyDjPWkC7T6g9qQt8md2Mn1oYgKMnODQAMvHOTg8UoPHc+1ISeCD+NHU8nj2oAAwzkn86C3JANGeQMZzQdpIx19aAAHHU9OMA0Ek4wOPU0wqcnof0oKE5xnNAEnOcdj3o4x169qhIcNgkZFBLHIHOKAHnbng0jrxyKaX2npk0isc8igB204zimsh4PQUpccDvQCGByvf1oAYcHvx9KawJOcj8RUw91H0zSMuRkjFAEBPG3A/wAKbkgkFAcjggdKlKKBx1PekMZznv6UCIlBA4J/HvTjgNyKdtbbg0FcqDQBGQOeOh9KXcOgHPvS++OKAASfT+VAEZ5I5H4UrYxnIAHpSYPpmmOuOAAD60DHZA4GCO/NJnHf8KhZ9jDpjHYU8TIRyeR0oESdRgKTSDggjINIsqlTn86N6HKhu3SgA3ODkL+dICNnbn0od93V6Z0HH4GgCUYPdQfamkqeSOf5038eexpGJPAwB7UAPGCeo9M0hdQccmoywIx1PtxTSXU9vqaAJWzgENwKTeegAz3zSB8dgfXmkLqCM55oAXgclRj60h2kZU5pQzY5Q03evPBGKAHBl6fnSEYyc/Lg4P4Udehz70AjBx6H+VACOcbT7CkLZx0xTpEGVzz8oP3hUTICP/shSGSBzzg5Jpd/bqfWoQrLk/L/AN9CnAjj5lHHqKAJQyY5/KhXGDtIz9elRYXGMj25FKAMZyuPXIzQBIRls4/E0MCF6A+9Io7+Yp+pFOUHOdy9fUUAIvI7jHTFJk7sDj271IyAjb5gGPcUwrzw2fxFACqdw2sMZ96cMAZHA9zUP8R4AP8AvCnhiRyV+mRQBPweFAGOuaAdo56fTNRAAdGUfiKXvkMMe5FAEmQMcY/ChSCCQeR+VNVto6jGf7wpGcdQw47ZFADwe+c/WnbuxHfrURddgywye+RShw3O5enYigCXLbxjP1p27BOM5FRI+4ZLD/voUodd3Y56ncKAJt2ecdPWkXJVsEjPUk0wSAjhht9MgYoYjj5lx7MKYE2RnGQR6Uhw3YDtmo8gchhx/tA0ocYIyP8AvoUASLgKPSjcc5A/SkUoR94YA/vCjPULIM/UZoAcCD0GMUbhx169aQHPUr+DCkzuHUAf7wpAP35Iz+ApVbC9ePSmZA5VxnH94YoBLf3f++hQA8jBIyDn370vQcjp0561CWGTkj8CKcrgLtDLjqBkZoAlBwMH8qdk7ckVX8wcdPxIqTzAvcY92FMB+4jJ3dPWlUjPBxUQkGSWKlcccik3qoPzKD16igCYvj7vTvmlDD15xUO/Aycc/wC0KUup67f++gaAJgxXJHSjcynBGM1CHU8ZU5/2hxShlAwWBPb5hxTESblIwOPpTsDv1qIOOrbeePvCnBgDgum76igBeUJIxz2pcEDqDio1kGCBt/76FHDngrgdTuFAEnf+dJwrYIGQetG0YJ3jP1FNIGAS4/BhQA9WG447Hv3oJAPXoetR4x/EPxYUhIzklefRhQBKXBFISODio8jOSy8f7Qpd44wVx3+YUAKUx9TTSuePu+9L3PzD/voUblI+8v03CgCMow+UEkds0EHhmHHfFO3DPUf99ClLDPUE/wC8KQDA5B+6SKUHDcEf40uQOrqB9RTQoOQGUgf7Q5oAV2XPGTmjOBnn6Uxj06Fu3zCg/KD8w56/MKAHgnGe1IOM5Of6U3PA+Zef9oU7Cg/eH5igB4GBx3pnl8Z70uVyOR/30KQuQ3GP++hTAQR+hFNZMc4yT6U5nHZl57ZFJuG442/99CkBFsBO3HemmANg4BqfK5HIP/AhSYHOSB77hTArNBlyCPrUf2UBuf59KuMCAMt0/wBoUEfLkFf++hQIomEg/K7AU7y2HORxVoAAZyv03Cl2AjPBz6sKAKqgjinAHGQR9BU3lo3BI/76FIYkxgFTj/aFIZARzkjn3NB+7wevapCigld2B65FJsA5BU+vIoEREHGNoH0pChxnHFSYYHBdSPqKCxBIyrfQigYzKqAQSDTWwx5Bz2NPYE/e2/mKaVBAORj2YUCGBWUZzSEHDEDjB7+1SEr6j8xSYTDYYDIPcelAH//Z</Image>
+      </Images>
+    </Label>
+  </InputData>
+  <ResultData xmlns="http://www.ens.dk/ResultData">
+    <LabelResults>
+      <EnergyLabelClassification>D</EnergyLabelClassification>
+      <Status/>
+      <ResultForAllProfitableProposals>
+        <EnergyLabelClassification>D</EnergyLabelClassification>
+      </ResultForAllProfitableProposals>
+      <AdjustedReportedConsumptions/>
+    </LabelResults>
+    <BuildingResults>
+      <BuildingResult BuildingID="3">
+        <EnergyLabelClassification>D</EnergyLabelClassification>
+        <Status/>
+        <ResultForAllProfitableProposals>
+          <EnergyLabelClassification>D</EnergyLabelClassification>
+        </ResultForAllProfitableProposals>
+      </BuildingResult>
+    </BuildingResults>
+    <ZoneResults>
+      <ZoneResult>
+        <EnergyLabelClassification>D</EnergyLabelClassification>
+        <Status>
+          <CalculatedSBIResult>
+            <ResultFigures>
+              <HeatingRequirementForCentralHeating>19.97</HeatingRequirementForCentralHeating>
+              <HeatingRequirementForStoves>0</HeatingRequirementForStoves>
+              <HeatingRequirementForCentralHeatingDegreeDayIndependent>2.16</HeatingRequirementForCentralHeatingDegreeDayIndependent>
+              <ElectricityRequirementForHeating>0</ElectricityRequirementForHeating>
+              <ElectricityRequirementForNonHeating>397</ElectricityRequirementForNonHeating>
+              <ElectricityRequirementForLighting>0</ElectricityRequirementForLighting>
+              <ElectricityRequirementForVentilation>0</ElectricityRequirementForVentilation>
+              <ElectricityRequirementForHeatPump>0</ElectricityRequirementForHeatPump>
+              <ElectricityRequirementForPumps>394</ElectricityRequirementForPumps>
+              <HeatPumpHeatingTotalPerformance>19.97</HeatPumpHeatingTotalPerformance>
+              <SolarHeatingPlantHeatingTotalPerformance>0</SolarHeatingPlantHeatingTotalPerformance>
+              <SolarCellsTotalPerformance>0</SolarCellsTotalPerformance>
+              <FulfilmentHeatingHotWater>1.82</FulfilmentHeatingHotWater>
+              <FulfilmentElectricityHotWater>0</FulfilmentElectricityHotWater>
+              <BoilerEfficiency>102</BoilerEfficiency>
+            </ResultFigures>
+            <KeyFigures>
+              <TransmissionLossThroughEnvelopeExcludingWindowsAndDoors>9.2</TransmissionLossThroughEnvelopeExcludingWindowsAndDoors>
+              <EnergyFrameInBRNoAddition>0</EnergyFrameInBRNoAddition>
+              <AdditionToEnergyFrameDueToMechanicalExhaust>0</AdditionToEnergyFrameDueToMechanicalExhaust>
+              <AdditionToEnergyFrameDueToSpecialConditions>0</AdditionToEnergyFrameDueToSpecialConditions>
+              <TotalEnergyRequirement>180.7</TotalEnergyRequirement>
+              <ContributionToEnergyRequirementHeating>172.2</ContributionToEnergyRequirementHeating>
+              <ContributionToEnergyRequirementElectricity>3.4</ContributionToEnergyRequirementElectricity>
+              <ContributionToEnergyRequirementExcessTemprature>0</ContributionToEnergyRequirementExcessTemprature>
+            </KeyFigures>
+          </CalculatedSBIResult>
+        </Status>
+        <ResultForAllProfitableProposals>
+          <EnergyLabelClassification>D</EnergyLabelClassification>
+          <CalculatedSBIResult>
+            <ResultFigures>
+              <HeatingRequirementForCentralHeating>16.83</HeatingRequirementForCentralHeating>
+              <HeatingRequirementForStoves>0</HeatingRequirementForStoves>
+              <HeatingRequirementForCentralHeatingDegreeDayIndependent>2.16</HeatingRequirementForCentralHeatingDegreeDayIndependent>
+              <ElectricityRequirementForHeating>0</ElectricityRequirementForHeating>
+              <ElectricityRequirementForNonHeating>397</ElectricityRequirementForNonHeating>
+              <ElectricityRequirementForLighting>0</ElectricityRequirementForLighting>
+              <ElectricityRequirementForVentilation>0</ElectricityRequirementForVentilation>
+              <ElectricityRequirementForHeatPump>0</ElectricityRequirementForHeatPump>
+              <ElectricityRequirementForPumps>394</ElectricityRequirementForPumps>
+              <HeatPumpHeatingTotalPerformance>16.83</HeatPumpHeatingTotalPerformance>
+              <SolarHeatingPlantHeatingTotalPerformance>0</SolarHeatingPlantHeatingTotalPerformance>
+              <SolarCellsTotalPerformance>0</SolarCellsTotalPerformance>
+              <FulfilmentHeatingHotWater>1.83</FulfilmentHeatingHotWater>
+              <FulfilmentElectricityHotWater>0</FulfilmentElectricityHotWater>
+              <BoilerEfficiency>101</BoilerEfficiency>
+            </ResultFigures>
+            <KeyFigures>
+              <TransmissionLossThroughEnvelopeExcludingWindowsAndDoors>9.2</TransmissionLossThroughEnvelopeExcludingWindowsAndDoors>
+              <EnergyFrameInBRNoAddition>0</EnergyFrameInBRNoAddition>
+              <AdditionToEnergyFrameDueToMechanicalExhaust>0</AdditionToEnergyFrameDueToMechanicalExhaust>
+              <AdditionToEnergyFrameDueToSpecialConditions>0</AdditionToEnergyFrameDueToSpecialConditions>
+              <TotalEnergyRequirement>153.6</TotalEnergyRequirement>
+              <ContributionToEnergyRequirementHeating>145.1</ContributionToEnergyRequirementHeating>
+              <ContributionToEnergyRequirementElectricity>3.4</ContributionToEnergyRequirementElectricity>
+              <ContributionToEnergyRequirementExcessTemprature>0</ContributionToEnergyRequirementExcessTemprature>
+            </KeyFigures>
+          </CalculatedSBIResult>
+        </ResultForAllProfitableProposals>
+        <ResultsForEachProposalGroup>
+          <ResultForEachProposalGroup ProposalGroupID="27">
+            <ProposalResult>
+              <Profitability>3.8169696969697218</Profitability>
+              <Category>Profitable</Category>
+              <Investment>1800</Investment>
+              <FuelSavings>
+                <FuelSaving>
+                  <Fuel>
+                    <Material xmlns="http://www.ens.dk/Globals">Electricity</Material>
+                    <Unit xmlns="http://www.ens.dk/Globals">KWh</Unit>
+                    <EnergyPerUnit xmlns="http://www.ens.dk/Globals">1</EnergyPerUnit>
+                    <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                  </Fuel>
+                  <FuelPrice>
+                    <CostPerUnit xmlns="http://www.ens.dk/Globals">2</CostPerUnit>
+                    <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                    <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                  </FuelPrice>
+                  <FuelSaved>3</FuelSaved>
+                </FuelSaving>
+                <FuelSaving>
+                  <Fuel>
+                    <Material xmlns="http://www.ens.dk/Globals">NaturalGas</Material>
+                    <Unit xmlns="http://www.ens.dk/Globals">CubicMeter</Unit>
+                    <EnergyPerUnit xmlns="http://www.ens.dk/Globals">11</EnergyPerUnit>
+                    <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                  </Fuel>
+                  <FuelPrice>
+                    <CostPerUnit xmlns="http://www.ens.dk/Globals">7.14</CostPerUnit>
+                    <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                    <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                  </FuelPrice>
+                  <FuelSaved>47.272727272727479</FuelSaved>
+                </FuelSaving>
+              </FuelSavings>
+            </ProposalResult>
+          </ResultForEachProposalGroup>
+          <ResultForEachProposalGroup ProposalGroupID="28">
+            <ProposalResult>
+              <Profitability>3.0865757575757624</Profitability>
+              <Category>Profitable</Category>
+              <Investment>12000</Investment>
+              <FuelSavings>
+                <FuelSaving>
+                  <Fuel>
+                    <Material xmlns="http://www.ens.dk/Globals">Electricity</Material>
+                    <Unit xmlns="http://www.ens.dk/Globals">KWh</Unit>
+                    <EnergyPerUnit xmlns="http://www.ens.dk/Globals">1</EnergyPerUnit>
+                    <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                  </Fuel>
+                  <FuelPrice>
+                    <CostPerUnit xmlns="http://www.ens.dk/Globals">2</CostPerUnit>
+                    <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                    <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                  </FuelPrice>
+                  <FuelSaved>14</FuelSaved>
+                </FuelSaving>
+                <FuelSaving>
+                  <Fuel>
+                    <Material xmlns="http://www.ens.dk/Globals">NaturalGas</Material>
+                    <Unit xmlns="http://www.ens.dk/Globals">CubicMeter</Unit>
+                    <EnergyPerUnit xmlns="http://www.ens.dk/Globals">11</EnergyPerUnit>
+                    <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                  </Fuel>
+                  <FuelPrice>
+                    <CostPerUnit xmlns="http://www.ens.dk/Globals">7.14</CostPerUnit>
+                    <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                    <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                  </FuelPrice>
+                  <FuelSaved>255.4545454545455</FuelSaved>
+                </FuelSaving>
+              </FuelSavings>
+            </ProposalResult>
+          </ResultForEachProposalGroup>
+          <ResultForEachProposalGroup ProposalGroupID="26">
+            <ProposalResult>
+              <Profitability>0.75551097178683668</Profitability>
+              <Category>ProfitableWhenRenovating</Category>
+              <Investment>29000</Investment>
+              <FuelSavings>
+                <FuelSaving>
+                  <Fuel>
+                    <Material xmlns="http://www.ens.dk/Globals">Electricity</Material>
+                    <Unit xmlns="http://www.ens.dk/Globals">KWh</Unit>
+                    <EnergyPerUnit xmlns="http://www.ens.dk/Globals">1</EnergyPerUnit>
+                    <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                  </Fuel>
+                  <FuelPrice>
+                    <CostPerUnit xmlns="http://www.ens.dk/Globals">2</CostPerUnit>
+                    <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                    <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                  </FuelPrice>
+                  <FuelSaved>9</FuelSaved>
+                </FuelSaving>
+                <FuelSaving>
+                  <Fuel>
+                    <Material xmlns="http://www.ens.dk/Globals">NaturalGas</Material>
+                    <Unit xmlns="http://www.ens.dk/Globals">CubicMeter</Unit>
+                    <EnergyPerUnit xmlns="http://www.ens.dk/Globals">11</EnergyPerUnit>
+                    <CO2PerUnit xmlns="http://www.ens.dk/Globals">0</CO2PerUnit>
+                  </Fuel>
+                  <FuelPrice>
+                    <CostPerUnit xmlns="http://www.ens.dk/Globals">7.14</CostPerUnit>
+                    <FixedCostPerYear xmlns="http://www.ens.dk/Globals">0</FixedCostPerYear>
+                    <SupplierCompanyName xmlns="http://www.ens.dk/Globals"/>
+                  </FuelPrice>
+                  <FuelSaved>150.909090909091</FuelSaved>
+                </FuelSaving>
+              </FuelSavings>
+            </ProposalResult>
+          </ResultForEachProposalGroup>
+        </ResultsForEachProposalGroup>
+      </ZoneResult>
+    </ZoneResults>
+  </ResultData>
+  <EnergyLabelSoftwareSpecificData xsi:type="xsd:string">100128941</EnergyLabelSoftwareSpecificData>
+</EnergyLabel>
